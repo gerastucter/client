@@ -2,6 +2,7 @@ import { join } from 'path'
 import forms from '@tailwindcss/forms'
 import typography from '@tailwindcss/typography'
 import skeleton from '@skeletonlabs/skeleton/tailwind/skeleton.cjs'
+// const flowbite = require('flowbite/plugin')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {

@@ -359,6 +359,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@popperjs/core@npm:^2.11.8, @popperjs/core@npm:^2.9.3":
+  version: 2.11.8
+  resolution: "@popperjs/core@npm:2.11.8"
+  checksum: e5c69fdebf52a4012f6a1f14817ca8e9599cb1be73dd1387e1785e2ed5e5f0862ff817f420a87c7fc532add1f88a12e25aeb010ffcbdc98eace3d55ce2139cf0
+  languageName: node
+  linkType: hard
+
 "@skeletonlabs/skeleton@npm:^1.6.2":
   version: 1.6.2
   resolution: "@skeletonlabs/skeleton@npm:1.6.2"
@@ -805,6 +812,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"colord@npm:^2.9":
+  version: 2.9.3
+  resolution: "colord@npm:2.9.3"
+  checksum: 95d909bfbcfd8d5605cbb5af56f2d1ce2b323990258fd7c0d2eb0e6d3bb177254d7fb8213758db56bb4ede708964f78c6b992b326615f81a18a6aaf11d64c650
+  languageName: node
+  linkType: hard
+
 "commander@npm:^4.0.0":
   version: 4.1.1
   resolution: "commander@npm:4.1.1"
@@ -844,12 +858,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"css-selector-tokenizer@npm:^0.8":
+  version: 0.8.0
+  resolution: "css-selector-tokenizer@npm:0.8.0"
+  dependencies:
+    cssesc: ^3.0.0
+    fastparse: ^1.1.2
+  checksum: 1eb7ca7d2c21ede700a0fab7df4547198431c30ba62663d81a566a8abe6ab7524f627ce6c0bde63f34917e199b73be4081e449bd8faf107d155766204082aa0a
+  languageName: node
+  linkType: hard
+
 "cssesc@npm:^3.0.0":
   version: 3.0.0
   resolution: "cssesc@npm:3.0.0"
   bin:
     cssesc: bin/cssesc
   checksum: f8c4ababffbc5e2ddf2fa9957dda1ee4af6048e22aeda1869d0d00843223c1b13ad3f5d88b51caa46c994225eacb636b764eb807a8883e2fb6f99b4f4e8c48b2
+  languageName: node
+  linkType: hard
+
+"daisyui@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "daisyui@npm:3.1.0"
+  dependencies:
+    colord: ^2.9
+    css-selector-tokenizer: ^0.8
+    postcss-js: ^4
+    tailwindcss: ^3
+  peerDependencies:
+    postcss: ^8
+  checksum: 2f1f44fc303dae8e03a6e88704d54575d1f8b8daa04a1d217a2def47c0752d82af1577d9807e5092be9b434de9d2499b5c0107c035cbd57987d5c51f1d4316fc
   languageName: node
   linkType: hard
 
@@ -1235,6 +1273,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fastparse@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "fastparse@npm:1.1.2"
+  checksum: c4d199809dc4e8acafeb786be49481cc9144de296e2d54df4540ccfd868d0df73afc649aba70a748925eb32bbc4208b723d6288adf92382275031a8c7e10c0aa
+  languageName: node
+  linkType: hard
+
 "fastq@npm:^1.6.0":
   version: 1.15.0
   resolution: "fastq@npm:1.15.0"
@@ -1286,6 +1331,29 @@ __metadata:
   version: 3.2.7
   resolution: "flatted@npm:3.2.7"
   checksum: 427633049d55bdb80201c68f7eb1cbd533e03eac541f97d3aecab8c5526f12a20ccecaeede08b57503e772c769e7f8680b37e8d482d1e5f8d7e2194687f9ea35
+  languageName: node
+  linkType: hard
+
+"flowbite-svelte@npm:^0.38.1":
+  version: 0.38.1
+  resolution: "flowbite-svelte@npm:0.38.1"
+  dependencies:
+    "@popperjs/core": ^2.11.8
+    flowbite: ^1.6.5
+    tailwind-merge: ^1.13.1
+  peerDependencies:
+    svelte: ^3.55.1 || ^4.0.0
+  checksum: 6d479580cdbb320b48eff78fc2558779f0f371b2371fe262eb8ccf78ebee8822ec81629c094a22473c1eae4997d2c9938e5162ee3c67c0fbdffcc008b5460aa4
+  languageName: node
+  linkType: hard
+
+"flowbite@npm:^1.6.5":
+  version: 1.6.5
+  resolution: "flowbite@npm:1.6.5"
+  dependencies:
+    "@popperjs/core": ^2.9.3
+    mini-svg-data-uri: ^1.4.3
+  checksum: b6b7da2b3c07356e47dcec0ec4365462053b8bd0b8e6a7a5126588f0deffc31d783f5e7cd5288856a4a6562dab8d2555e0ea9b2c718e1d94a5c147655a8622f5
   languageName: node
   linkType: hard
 
@@ -1841,7 +1909,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mini-svg-data-uri@npm:^1.2.3":
+"mini-svg-data-uri@npm:^1.2.3, mini-svg-data-uri@npm:^1.4.3":
   version: 1.4.4
   resolution: "mini-svg-data-uri@npm:1.4.4"
   bin:
@@ -1987,21 +2055,26 @@ __metadata:
   resolution: "my-skeleton-app@workspace:."
   dependencies:
     "@floating-ui/dom": ^1.2.9
+    "@popperjs/core": ^2.11.8
     "@skeletonlabs/skeleton": ^1.6.2
     "@sveltejs/adapter-auto": ^2.0.0
     "@sveltejs/kit": ^1.5.0
     "@tailwindcss/forms": ^0.5.3
     "@tailwindcss/typography": ^0.5.9
     autoprefixer: ^10.4.14
+    daisyui: ^3.1.0
     eslint: ^8.28.0
     eslint-config-prettier: ^8.5.0
     eslint-plugin-svelte: ^2.26.0
+    flowbite: ^1.6.5
+    flowbite-svelte: ^0.38.1
     framework7-svelte: ^8.0.5
     postcss: ^8.4.24
     prettier: ^2.8.0
     prettier-plugin-svelte: ^2.8.1
     svelte: ^3.54.0
     svelte-feather-icons: ^4.0.1
+    tailwind-merge: ^1.13.1
     tailwindcss: ^3.3.2
     vite: ^4.3.0
   languageName: unknown
@@ -2247,7 +2320,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-js@npm:^4.0.1":
+"postcss-js@npm:^4, postcss-js@npm:^4.0.1":
   version: 4.0.1
   resolution: "postcss-js@npm:4.0.1"
   dependencies:
@@ -2770,7 +2843,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.3.2":
+"tailwind-merge@npm:^1.13.1":
+  version: 1.13.1
+  resolution: "tailwind-merge@npm:1.13.1"
+  checksum: 25ae5100b322a5baa6b7f09b34d807d99e3405816d6d32f42b6223de5cd9c438d5742b78b94a9be9a5c93701f427a10bf399ca144dc5a2f8092ce181c26adcb1
+  languageName: node
+  linkType: hard
+
+"tailwindcss@npm:^3, tailwindcss@npm:^3.3.2":
   version: 3.3.2
   resolution: "tailwindcss@npm:3.3.2"
   dependencies:

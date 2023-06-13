@@ -29,21 +29,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@floating-ui/dom", "npm:1.2.9"],\
+            ["@popperjs/core", "npm:2.11.8"],\
             ["@skeletonlabs/skeleton", "npm:1.6.2"],\
             ["@sveltejs/adapter-auto", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:2.1.0"],\
             ["@sveltejs/kit", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:1.20.0"],\
             ["@tailwindcss/forms", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.5.3"],\
             ["@tailwindcss/typography", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.5.9"],\
             ["autoprefixer", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:10.4.14"],\
+            ["daisyui", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:3.1.0"],\
             ["eslint", "npm:8.41.0"],\
             ["eslint-config-prettier", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:8.8.0"],\
             ["eslint-plugin-svelte", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:2.30.0"],\
+            ["flowbite", "npm:1.6.5"],\
+            ["flowbite-svelte", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.38.1"],\
             ["framework7-svelte", "npm:8.0.5"],\
             ["postcss", "npm:8.4.24"],\
             ["prettier", "npm:2.8.8"],\
             ["prettier-plugin-svelte", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:2.10.1"],\
             ["svelte", "npm:3.59.1"],\
             ["svelte-feather-icons", "npm:4.0.1"],\
+            ["tailwind-merge", "npm:1.13.1"],\
             ["tailwindcss", "npm:3.3.2"],\
             ["vite", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:4.3.9"]\
           ],\
@@ -489,6 +494,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@polka-url-npm-1.0.0-next.21-02342f3d90-c7654046d3.zip/node_modules/@polka/url/",\
           "packageDependencies": [\
             ["@polka/url", "npm:1.0.0-next.21"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@popperjs/core", [\
+        ["npm:2.11.8", {\
+          "packageLocation": "./.yarn/cache/@popperjs-core-npm-2.11.8-f1692e11a0-e5c69fdebf.zip/node_modules/@popperjs/core/",\
+          "packageDependencies": [\
+            ["@popperjs/core", "npm:2.11.8"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1086,6 +1100,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["colord", [\
+        ["npm:2.9.3", {\
+          "packageLocation": "./.yarn/cache/colord-npm-2.9.3-5c35c27898-95d909bfbc.zip/node_modules/colord/",\
+          "packageDependencies": [\
+            ["colord", "npm:2.9.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["commander", [\
         ["npm:4.1.1", {\
           "packageLocation": "./.yarn/cache/commander-npm-4.1.1-22a0fe921b-d7b9913ff9.zip/node_modules/commander/",\
@@ -1134,11 +1157,48 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["css-selector-tokenizer", [\
+        ["npm:0.8.0", {\
+          "packageLocation": "./.yarn/cache/css-selector-tokenizer-npm-0.8.0-b6bad298a3-1eb7ca7d2c.zip/node_modules/css-selector-tokenizer/",\
+          "packageDependencies": [\
+            ["css-selector-tokenizer", "npm:0.8.0"],\
+            ["cssesc", "npm:3.0.0"],\
+            ["fastparse", "npm:1.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["cssesc", [\
         ["npm:3.0.0", {\
           "packageLocation": "./.yarn/cache/cssesc-npm-3.0.0-15ec56f86f-f8c4ababff.zip/node_modules/cssesc/",\
           "packageDependencies": [\
             ["cssesc", "npm:3.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["daisyui", [\
+        ["npm:3.1.0", {\
+          "packageLocation": "./.yarn/cache/daisyui-npm-3.1.0-ad2132f1db-2f1f44fc30.zip/node_modules/daisyui/",\
+          "packageDependencies": [\
+            ["daisyui", "npm:3.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:3.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/daisyui-virtual-dd06f5cc04/0/cache/daisyui-npm-3.1.0-ad2132f1db-2f1f44fc30.zip/node_modules/daisyui/",\
+          "packageDependencies": [\
+            ["daisyui", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:3.1.0"],\
+            ["@types/postcss", null],\
+            ["colord", "npm:2.9.3"],\
+            ["css-selector-tokenizer", "npm:0.8.0"],\
+            ["postcss", "npm:8.4.24"],\
+            ["postcss-js", "virtual:9311a8c9fc2fa723a363b04526c261872a9280ff9a5542cdc84255404f48ad5c7925fba5ed45881f7890d0d836206f3c952ef9a86f561b44b7d6e17f15c70e68#npm:4.0.1"],\
+            ["tailwindcss", "npm:3.3.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/postcss",\
+            "postcss"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1559,6 +1619,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["fastparse", [\
+        ["npm:1.1.2", {\
+          "packageLocation": "./.yarn/cache/fastparse-npm-1.1.2-6a35154770-c4d199809d.zip/node_modules/fastparse/",\
+          "packageDependencies": [\
+            ["fastparse", "npm:1.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["fastq", [\
         ["npm:1.15.0", {\
           "packageLocation": "./.yarn/cache/fastq-npm-1.15.0-1013f6514e-0170e6bfcd.zip/node_modules/fastq/",\
@@ -1616,6 +1685,42 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/flatted-npm-3.2.7-0da10b7c56-427633049d.zip/node_modules/flatted/",\
           "packageDependencies": [\
             ["flatted", "npm:3.2.7"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["flowbite", [\
+        ["npm:1.6.5", {\
+          "packageLocation": "./.yarn/cache/flowbite-npm-1.6.5-50e088b944-b6b7da2b3c.zip/node_modules/flowbite/",\
+          "packageDependencies": [\
+            ["flowbite", "npm:1.6.5"],\
+            ["@popperjs/core", "npm:2.11.8"],\
+            ["mini-svg-data-uri", "npm:1.4.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["flowbite-svelte", [\
+        ["npm:0.38.1", {\
+          "packageLocation": "./.yarn/cache/flowbite-svelte-npm-0.38.1-5fd68054fd-6d479580cd.zip/node_modules/flowbite-svelte/",\
+          "packageDependencies": [\
+            ["flowbite-svelte", "npm:0.38.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.38.1", {\
+          "packageLocation": "./.yarn/__virtual__/flowbite-svelte-virtual-e09903ecff/0/cache/flowbite-svelte-npm-0.38.1-5fd68054fd-6d479580cd.zip/node_modules/flowbite-svelte/",\
+          "packageDependencies": [\
+            ["flowbite-svelte", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.38.1"],\
+            ["@popperjs/core", "npm:2.11.8"],\
+            ["@types/svelte", null],\
+            ["flowbite", "npm:1.6.5"],\
+            ["svelte", "npm:3.59.1"],\
+            ["tailwind-merge", "npm:1.13.1"]\
+          ],\
+          "packagePeers": [\
+            "@types/svelte",\
+            "svelte"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2405,21 +2510,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["my-skeleton-app", "workspace:."],\
             ["@floating-ui/dom", "npm:1.2.9"],\
+            ["@popperjs/core", "npm:2.11.8"],\
             ["@skeletonlabs/skeleton", "npm:1.6.2"],\
             ["@sveltejs/adapter-auto", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:2.1.0"],\
             ["@sveltejs/kit", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:1.20.0"],\
             ["@tailwindcss/forms", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.5.3"],\
             ["@tailwindcss/typography", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.5.9"],\
             ["autoprefixer", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:10.4.14"],\
+            ["daisyui", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:3.1.0"],\
             ["eslint", "npm:8.41.0"],\
             ["eslint-config-prettier", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:8.8.0"],\
             ["eslint-plugin-svelte", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:2.30.0"],\
+            ["flowbite", "npm:1.6.5"],\
+            ["flowbite-svelte", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.38.1"],\
             ["framework7-svelte", "npm:8.0.5"],\
             ["postcss", "npm:8.4.24"],\
             ["prettier", "npm:2.8.8"],\
             ["prettier-plugin-svelte", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:2.10.1"],\
             ["svelte", "npm:3.59.1"],\
             ["svelte-feather-icons", "npm:4.0.1"],\
+            ["tailwind-merge", "npm:1.13.1"],\
             ["tailwindcss", "npm:3.3.2"],\
             ["vite", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:4.3.9"]\
           ],\
@@ -3374,6 +3484,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/svelte",\
             "svelte"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tailwind-merge", [\
+        ["npm:1.13.1", {\
+          "packageLocation": "./.yarn/cache/tailwind-merge-npm-1.13.1-0f54741b9d-25ae5100b3.zip/node_modules/tailwind-merge/",\
+          "packageDependencies": [\
+            ["tailwind-merge", "npm:1.13.1"]\
           ],\
           "linkType": "HARD"\
         }]\
