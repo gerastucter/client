@@ -44,6 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["flowbite-svelte", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.38.1"],\
             ["framework7-svelte", "npm:8.0.5"],\
             ["postcss", "npm:8.4.24"],\
+            ["preline", "npm:1.9.0"],\
             ["prettier", "npm:2.8.8"],\
             ["prettier-plugin-svelte", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:2.10.1"],\
             ["svelte", "npm:3.59.1"],\
@@ -2525,6 +2526,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["flowbite-svelte", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.38.1"],\
             ["framework7-svelte", "npm:8.0.5"],\
             ["postcss", "npm:8.4.24"],\
+            ["preline", "npm:1.9.0"],\
             ["prettier", "npm:2.8.8"],\
             ["prettier-plugin-svelte", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:2.10.1"],\
             ["svelte", "npm:3.59.1"],\
@@ -2983,6 +2985,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/postcss-value-parser-npm-4.2.0-3cef602a6a-819ffab0c9.zip/node_modules/postcss-value-parser/",\
           "packageDependencies": [\
             ["postcss-value-parser", "npm:4.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["preline", [\
+        ["npm:1.9.0", {\
+          "packageLocation": "./.yarn/cache/preline-npm-1.9.0-6c4beb200f-bd63a02991.zip/node_modules/preline/",\
+          "packageDependencies": [\
+            ["preline", "npm:1.9.0"],\
+            ["@popperjs/core", "npm:2.11.8"]\
           ],\
           "linkType": "HARD"\
         }]\

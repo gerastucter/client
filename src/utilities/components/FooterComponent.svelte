@@ -22,7 +22,7 @@
                       <ul>
                         <li>
                           <a class="inline-flex items-center w-full px-4 py-2 mt-1 text-sm text-gray-500 transition duration-200 ease-in-out transform rounded-lg focus:shadow-outline hover:bg-gray-100 hover:scale-95 hover:text-blue-500"
-                            href="#">
+                            href="https://docs.google.com/document/d/1I0hgjf2MoJg_bJQKrJB4EnENfiJXVs8G/edit?usp=drivesdk&ouid=113732401299139248092&rtpof=true&sd=true">
                             <LinkIcon/>
                             <span class="ml-4">
                               Privacy Policy
@@ -31,7 +31,7 @@
                         </li>
                         <li>
                           <a class="inline-flex items-center w-full px-4 py-2 mt-1 text-sm text-gray-500 transition duration-200 ease-in-out transform rounded-lg focus:shadow-outline hover:bg-gray-100 hover:scale-95 hover:text-blue-500"
-                            href="#">
+                            href="https://docs.google.com/document/d/1EkZQi2ubDCpaCz8InnxK8GKx8LH6PRHt/edit?usp=drivesdk&ouid=113732401299139248092&rtpof=true&sd=true">
                             <LinkIcon/>
                             <span class="ml-4">
                               Terms and Conditions
@@ -76,9 +76,9 @@
       </div>
       <div class="mx-auto">
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto flex flex-col items-center justify-center">
         <span class="mx-auto mt-2 text-sm text-gray-500">
-          Copyright © 2023 - Gerastucter
+          Copyright © 2023
         </span>
         <figure class="flex justify-center col-span-1 px-8">
           <img class="max-h-24"

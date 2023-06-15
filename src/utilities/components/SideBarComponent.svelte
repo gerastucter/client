@@ -1,6 +1,15 @@
 <script type="text/javascript" charset="utf-8">
   // Import icons
-	import { FlagIcon, InfoIcon, HelpCircleIcon } from 'svelte-feather-icons'
+	import { 
+	  FlagIcon, 
+	  InfoIcon,
+	  HelpCircleIcon,
+	  DatabaseIcon,
+	  CloudOffIcon,
+	  FileTextIcon
+	  } 
+	from 'svelte-feather-icons';
+	
 </script>
 
 <aside class="flex h-screen overflow-hidden bg-white">
@@ -23,7 +32,50 @@
               </p>
             </a>
           </li>
-          </ul>
+          <li class="text-center bg-primary-500 p-3 mb-3 rounded-full">
+            <a href="/about"
+              class="text-tertiary-500 transition duration-200 ease-in-out transform hover:text-blue-500 focus:shadow-outline hover:scale-95 text-center">
+              <p class="mx-auto text-center">
+                <InfoIcon />
+              </p>
+            </a>
+          </li>
+          <li class="text-center bg-primary-500 p-3 mb-3 rounded-full">
+            <a href="/resources"
+              class="text-tertiary-500 transition duration-200 ease-in-out transform hover:text-blue-500 focus:shadow-outline hover:scale-95 text-center">
+              <p class="mx-auto text-center">
+                <DatabaseIcon />
+              </p>
+            </a>
+          </li>
+          <li class="text-center bg-primary-500 p-3 mb-3 rounded-full">
+            <a href="/faq"
+              class="text-tertiary-500 transition duration-200 ease-in-out transform hover:text-blue-500 focus:shadow-outline hover:scale-95 text-center">
+              <p class="mx-auto text-center">
+                <HelpCircleIcon />
+              </p>
+            </a>
+          </li>
+          <div class="p-1 text-gray-500 text-sm">
+            <p class="mt-5">MORE</p>
+          </div>
+                    <li class="text-center bg-primary-500 p-3 mb-3 rounded-full">
+            <a href="https://docs.google.com/document/d/1I0hgjf2MoJg_bJQKrJB4EnENfiJXVs8G/edit?usp=drivesdk&ouid=113732401299139248092&rtpof=true&sd=true"
+              class="text-tertiary-500 transition duration-200 ease-in-out transform hover:text-blue-500 focus:shadow-outline hover:scale-95 text-center">
+              <p class="mx-auto text-center">
+                <CloudOffIcon />
+              </p>
+            </a>
+          </li>
+                    <li class="text-center bg-primary-500 p-3 mb-3 rounded-full">
+            <a href="https://docs.google.com/document/d/1EkZQi2ubDCpaCz8InnxK8GKx8LH6PRHt/edit?usp=drivesdk&ouid=113732401299139248092&rtpof=true&sd=true"
+              class="text-tertiary-500 transition duration-200 ease-in-out transform hover:text-blue-500 focus:shadow-outline hover:scale-95 text-center">
+              <p class="mx-auto text-center">
+                <FileTextIcon />
+              </p>
+            </a>
+          </li>
+        </ul>
       </div>
     </nav>
   </div>
