@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <meta name="description" content="">
+  <meta name="description" content="What is Geratucter? And what is its mission?">
   <meta name="keywords" content="KNOW, GERASTUCTER, ">
   <meta name="author" content="Gerastucter">
   <title>ABOUT | GERASTUCTER</title>
