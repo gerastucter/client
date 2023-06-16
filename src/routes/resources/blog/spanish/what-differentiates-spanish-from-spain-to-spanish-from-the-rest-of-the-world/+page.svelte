@@ -13,17 +13,54 @@
       <h1 class="text-3xl font-bold text-primary-500 leadi ">
         What differentiates Spanish from Spain to Spanish from the rest of the world?
       </h1>
-      <div class="flex flex-wrap space-x-2 text-sm text-white">
-        <a href="#culture" class="p-1 hover:underline">
-          #CULTURE
-        </a>
-        <a href="#history" class="p-1 hover:underline">
-          #HISTORY
-        </a>
-        <a href="#grammar" class="p-1 hover:underline">
-          #GRAMMAR
-        </a>
-      </div>
+  <div class="grid grid-cols-5 p-5 my-auto">
+    <div class="col-span-2">
+      <ul class="sticky top-0" data-hs-scrollspy="#scrollspy-2"
+        data-hs-scrollspy-scrollable-parent="#scrollspy-scrollable-parent-2">
+        <li data-hs-scrollspy-group>
+          <span class="block py-0.5 text-sm font-medium leading-6 text-white">Links</span>
+          <ul>
+            <li class="ml-4">
+              <a href="#culture"
+                class="group flex items-start gap-x-2 py-0.5 text-sm text-white leading-6 hover:text-gray-800  dark:hover:text-gray-300 hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400">
+                <svg
+                  class="w-2 h-6 text-gray-400 overflow-visible group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-500"
+                  width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 2L10.6464 7.64645C10.8417 7.84171 10.8417 8.15829 10.6464 8.35355L5 14"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+                CULTURE
+              </a>
+            </li>
+            <li class="ml-4">
+              <a href="#history"
+                class="group flex items-start gap-x-2 py-0.5 text-sm text-white leading-6 hover:text-gray-800  dark:hover:text-gray-300 hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400">
+                <svg
+                  class="w-2 h-6 text-gray-400 overflow-visible group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-500"
+                  width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 2L10.6464 7.64645C10.8417 7.84171 10.8417 8.15829 10.6464 8.35355L5 14"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+                HISTORY
+              </a>
+            </li>
+            <li class="ml-4">
+              <a href="#grammar"
+                class="group flex items-start gap-x-2 py-0.5 text-sm text-white leading-6 hover:text-gray-800 dark:hover:text-gray-300 hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400">
+                <svg
+                  class="w-2 h-6 text-gray-400 overflow-visible group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-500"
+                  width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 2L10.6464 7.64645C10.8417 7.84171 10.8417 8.15829 10.6464 8.35355L5 14"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+                GRAMMAR
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
       <p class="text-sm pl-1 text-gray-600">
         <span class="hover:underline text-cyan-600">
           <span>Spanish</span>

@@ -1,6 +1,6 @@
 {
 	"name": "my-skeleton-app",
-	"version": "0.0.1",
+	"version": "+0.0.1",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -31,8 +31,6 @@
 	"type": "module",
 	"dependencies": {
 		"@popperjs/core": "^2.11.8",
-		"flowbite": "^1.6.5",
-		"flowbite-svelte": "^0.38.1",
 		"framework7-svelte": "^8.0.5",
 		"preline": "^1.9.0",
 		"svelte-feather-icons": "^4.0.1",

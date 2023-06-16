@@ -3,7 +3,8 @@
 </script>
 
 <svelte:head>
-  <meta name="description" content="Discover free tools to help you in your language learning. Get to know our homepage.">
+  <meta name="description"
+    content="Discover free tools to help you in your language learning. Get to know our homepage.">
   <meta name="keywords" content="LANGUAGE, LEARNING, HOME">
   <meta name="author" content="Gerastucter">
   <title>HOME | GERASTUCTER</title>
@@ -12,6 +13,7 @@
 
 <main class="container mx-auto text-center p-4 md:text-center mb-5">
   <section class="container mx-auto text-left p-4 md:text-center">
+    
     <div class="relative z-[1] space-y-6 pt-32 pb-24">
       <h1 class="font-bold text-tertiary-400 text-4xl tracking-tight text-center">
         Welcome to <span class="text-success-500">Gerastucter</span>
@@ -29,9 +31,9 @@
         <button class="btn md:btn-lg w-full md:w-fit text-tertiary-400">
           <a class="text-tertiary-400 inline-flex items-center justify-center w-full px-6 py-3 font-medium text-center duration-200 border rounded-full bg-primary-500 border-white/5 focus-visible:outline-black focus-visible:ring-black focus:outline-none hover:text-blue-400 lg:w-auto font-bold"
             href="/resources">
-            Start 
-            <PlayIcon class="pl-1" size="20"/>
-            </a>
+            Start
+            <PlayIcon class="pl-1" size="20" />
+          </a>
         </button>
       </div>
     </div>

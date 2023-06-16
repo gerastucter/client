@@ -359,7 +359,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@popperjs/core@npm:^2.11.2, @popperjs/core@npm:^2.11.8, @popperjs/core@npm:^2.9.3":
+"@popperjs/core@npm:^2.11.2, @popperjs/core@npm:^2.11.8":
   version: 2.11.8
   resolution: "@popperjs/core@npm:2.11.8"
   checksum: e5c69fdebf52a4012f6a1f14817ca8e9599cb1be73dd1387e1785e2ed5e5f0862ff817f420a87c7fc532add1f88a12e25aeb010ffcbdc98eace3d55ce2139cf0
@@ -1334,29 +1334,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flowbite-svelte@npm:^0.38.1":
-  version: 0.38.1
-  resolution: "flowbite-svelte@npm:0.38.1"
-  dependencies:
-    "@popperjs/core": ^2.11.8
-    flowbite: ^1.6.5
-    tailwind-merge: ^1.13.1
-  peerDependencies:
-    svelte: ^3.55.1 || ^4.0.0
-  checksum: 6d479580cdbb320b48eff78fc2558779f0f371b2371fe262eb8ccf78ebee8822ec81629c094a22473c1eae4997d2c9938e5162ee3c67c0fbdffcc008b5460aa4
-  languageName: node
-  linkType: hard
-
-"flowbite@npm:^1.6.5":
-  version: 1.6.5
-  resolution: "flowbite@npm:1.6.5"
-  dependencies:
-    "@popperjs/core": ^2.9.3
-    mini-svg-data-uri: ^1.4.3
-  checksum: b6b7da2b3c07356e47dcec0ec4365462053b8bd0b8e6a7a5126588f0deffc31d783f5e7cd5288856a4a6562dab8d2555e0ea9b2c718e1d94a5c147655a8622f5
-  languageName: node
-  linkType: hard
-
 "fraction.js@npm:^4.2.0":
   version: 4.2.0
   resolution: "fraction.js@npm:4.2.0"
@@ -1909,7 +1886,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mini-svg-data-uri@npm:^1.2.3, mini-svg-data-uri@npm:^1.4.3":
+"mini-svg-data-uri@npm:^1.2.3":
   version: 1.4.4
   resolution: "mini-svg-data-uri@npm:1.4.4"
   bin:
@@ -2066,8 +2043,6 @@ __metadata:
     eslint: ^8.28.0
     eslint-config-prettier: ^8.5.0
     eslint-plugin-svelte: ^2.26.0
-    flowbite: ^1.6.5
-    flowbite-svelte: ^0.38.1
     framework7-svelte: ^8.0.5
     postcss: ^8.4.24
     preline: ^1.9.0

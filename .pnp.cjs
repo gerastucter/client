@@ -40,8 +40,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.41.0"],\
             ["eslint-config-prettier", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:8.8.0"],\
             ["eslint-plugin-svelte", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:2.30.0"],\
-            ["flowbite", "npm:1.6.5"],\
-            ["flowbite-svelte", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.38.1"],\
             ["framework7-svelte", "npm:8.0.5"],\
             ["postcss", "npm:8.4.24"],\
             ["preline", "npm:1.9.0"],\
@@ -1690,42 +1688,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["flowbite", [\
-        ["npm:1.6.5", {\
-          "packageLocation": "./.yarn/cache/flowbite-npm-1.6.5-50e088b944-b6b7da2b3c.zip/node_modules/flowbite/",\
-          "packageDependencies": [\
-            ["flowbite", "npm:1.6.5"],\
-            ["@popperjs/core", "npm:2.11.8"],\
-            ["mini-svg-data-uri", "npm:1.4.4"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["flowbite-svelte", [\
-        ["npm:0.38.1", {\
-          "packageLocation": "./.yarn/cache/flowbite-svelte-npm-0.38.1-5fd68054fd-6d479580cd.zip/node_modules/flowbite-svelte/",\
-          "packageDependencies": [\
-            ["flowbite-svelte", "npm:0.38.1"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.38.1", {\
-          "packageLocation": "./.yarn/__virtual__/flowbite-svelte-virtual-e09903ecff/0/cache/flowbite-svelte-npm-0.38.1-5fd68054fd-6d479580cd.zip/node_modules/flowbite-svelte/",\
-          "packageDependencies": [\
-            ["flowbite-svelte", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.38.1"],\
-            ["@popperjs/core", "npm:2.11.8"],\
-            ["@types/svelte", null],\
-            ["flowbite", "npm:1.6.5"],\
-            ["svelte", "npm:3.59.1"],\
-            ["tailwind-merge", "npm:1.13.1"]\
-          ],\
-          "packagePeers": [\
-            "@types/svelte",\
-            "svelte"\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["fraction.js", [\
         ["npm:4.2.0", {\
           "packageLocation": "./.yarn/cache/fraction.js-npm-4.2.0-28efe4afc7-8c76a6e21d.zip/node_modules/fraction.js/",\
@@ -2522,8 +2484,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.41.0"],\
             ["eslint-config-prettier", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:8.8.0"],\
             ["eslint-plugin-svelte", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:2.30.0"],\
-            ["flowbite", "npm:1.6.5"],\
-            ["flowbite-svelte", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.38.1"],\
             ["framework7-svelte", "npm:8.0.5"],\
             ["postcss", "npm:8.4.24"],\
             ["preline", "npm:1.9.0"],\
