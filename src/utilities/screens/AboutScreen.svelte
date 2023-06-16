@@ -4,8 +4,9 @@
 
 <svelte:head>
   <meta name="description" content="What is Geratucter? And what is its mission?">
-  <meta name="keywords" content="KNOW, GERASTUCTER, ">
+  <meta name="keywords" content="KNOW, GERASTUCTER, ABOUT">
   <meta name="author" content="Gerastucter">
+  <meta name="google-site-verification" content="M32GY7lGAAc-htQXgKAwDhn-spwXaak4EQVYpYP_T9s" />
   <title>ABOUT | GERASTUCTER</title>
 </svelte:head>
 
@@ -15,7 +16,7 @@
     <p>FEATURES</p>
   </div>
   <div style="transform: rotate(45deg)" class="p-5 w-full flex items-center justify-center">
-    <Maximize2Icon size="30"/>
+    <Maximize2Icon size="30" />
   </div>
   <section class="flex items-start overflow-x-scroll">
     <div class="flex flex-col items-start p-12 mt-5">

@@ -47,7 +47,7 @@
 				</li>
 			</ul>
 			<div class="flex flex-wrap gap-4">
-				<a href="/blog" class="w-full btn md:btn-lg  w-full md:w-fit variant-filled-primary">
+				<a href="/resources/blog" class="w-full btn md:btn-lg  w-full md:w-fit variant-filled-primary">
 				  GO
 				</a>
 			</div>
