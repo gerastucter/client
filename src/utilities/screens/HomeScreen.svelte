@@ -13,10 +13,10 @@
 <main class="container mx-auto text-center p-4 md:text-center mb-5">
   <section class="container mx-auto text-left p-4 md:text-center">
     <div class="relative z-[1] space-y-6 pt-32 pb-24">
-      <h1 class="font-bold text-4xl tracking-tight text-center">
+      <h1 class="font-bold text-tertiary-400 text-4xl tracking-tight text-center">
         Welcome to <span class="text-success-500">Gerastucter</span>
       </h1>
-      <p class="max-w-lg opacity-70 md:mx-auto text-center">
+      <p class="max-w-lg opacity-70 md:mx-auto text-center text-tertiary-400">
         Get to know tools that will help you a lot in your language learning, here you have the freedom to browse all
         content without any limitation. Discover our resources or know more about us...
       </p>

@@ -10,20 +10,21 @@ export const nodes = [
 	() => import('./nodes/6'),
 	() => import('./nodes/7'),
 	() => import('./nodes/8'),
-	() => import('./nodes/9')
+	() => import('./nodes/9'),
+	() => import('./nodes/10')
 ];
 
 export const server_loads = [];
 
 export const dictionary = {
-		"/": [2],
-		"/about": [3],
-		"/faq": [4],
-		"/resources": [5],
-		"/resources/blog": [6],
-		"/resources/blog/spanish": [7],
-		"/resources/blog/spanish/what-differentiates-spanish-from-spain-to-spanish-from-the-rest-of-the-world": [8],
-		"/resources/tutoring": [9]
+		"/": [3],
+		"/about": [4],
+		"/faq": [5],
+		"/resources": [6],
+		"/resources/blog": [7],
+		"/resources/blog/spanish": [8,[2]],
+		"/resources/blog/spanish/what-differentiates-spanish-from-spain-to-spanish-from-the-rest-of-the-world": [9,[2]],
+		"/resources/tutoring": [10]
 	};
 
 export const hooks = {

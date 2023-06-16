@@ -29,7 +29,7 @@
             <div class="flex flex-wrap justify-between items-center pt-3 space-x-2 text-xs text-gray-600">
               <date>June 15, 2023</date>
               <a 
-              href="resources/blog/spanish/what-differentiates-spanish-from-spain-to-spanish-from-the-rest-of-the-world"
+              href="/resources/blog/spanish/what-differentiates-spanish-from-spain-to-spanish-from-the-rest-of-the-world"
               class="text-success-400 p-5 bg-secondary-500 rounded-full font-bold">
                 Read it
               </a>

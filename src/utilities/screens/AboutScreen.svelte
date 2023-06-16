@@ -6,7 +6,6 @@
   <meta name="description" content="What is Geratucter? And what is its mission?">
   <meta name="keywords" content="KNOW, GERASTUCTER, ABOUT">
   <meta name="author" content="Gerastucter">
-  <meta name="google-site-verification" content="M32GY7lGAAc-htQXgKAwDhn-spwXaak4EQVYpYP_T9s" />
   <title>ABOUT | GERASTUCTER</title>
 </svelte:head>
 
