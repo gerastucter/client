@@ -271,13 +271,13 @@
       </div>
     </div>
   </section>
-  <div class="container mx-auto p-4 space-y-2 text-center mt-24">
+  <div class="flex flex-col w-full px-5 mx-auto p-4 space-y-2 text-center mt-24">
     <h3 class="text-3xl font-bold">ABOUT GERASTUCTER</h3>
     <p>MISSION</p>
   </div>
   <section>
     <div class="flex">
-      <div class="flex flex-col justify-center flex-1 px-8 py-8 md:px-12 lg:flex-none lg:px-24">
+      <div class="flex flex-col justify-center flex-1 items-center px-8 py-8 md:px-12 lg:flex-none lg:px-24">
         <div class="w-full mx-auto lg:max-w-6xl">
           <div class="w-full mx-auto text-center lg:p-10 lg:text-left">
             <div class="text-center">
@@ -295,13 +295,13 @@
       </div>
     </div>
   </section>
-  <div class="container mx-auto p-4 space-y-2 text-center mt-24">
+  <div class="flex flex-col w-full px-5 mx-auto p-4 space-y-2 text-center mt-24">
     <h3 class="text-3xl font-bold">ABOUT GERASTUCTER</h3>
     <p>COMPANY</p>
   </div>
   <section>
     <div class="flex">
-      <div class="flex flex-col justify-center flex-1 px-8 py-8 md:px-12 lg:flex-none lg:px-24">
+      <div class="flex flex-col justify-center flex-1 items-center px-8 py-8 md:px-12 lg:flex-none lg:px-24">
         <div class="w-full mx-auto lg:max-w-6xl">
           <div class="w-full mx-auto text-center lg:p-10 lg:text-left">
             <div class="text-center">

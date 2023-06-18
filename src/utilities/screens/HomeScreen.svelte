@@ -17,7 +17,7 @@
       
       <div class="absolute items-center w-full px-5 py-12 mx-auto max-w-7xl lg:px-16 lg:py-32 md:px-12">
         <div class="relative items-center w-full py-12 pb-12 mx-auto mt-12 max-w-7xl">
-          <svg id="anim"  fill="none" viewBox="0 0 400 400" height="100%" width="100%" xmlns="http://www.w3.org/2000/svg"
+          <svg id="anim" fill="none" viewBox="0 0 400 400" height="100%" width="100%" xmlns="http://www.w3.org/2000/svg"
             class="absolute -mt-24 blur-3xl">
             <g clip-path="url(#clip0_10_20)">
               <g filter="url(#filter0_f_10_20)">
@@ -38,27 +38,28 @@
           </svg>
         </div>
       </div>
-      
-      <h1 class="font-bold text-4xl tracking-tight text-center">
-        <span class="mb-2">Welcome to</span>
-        <span class="
-        text-success-50-900-token bg-tertiary-900-50-token p-1 rounded drop-shadow-lg">Gerastucter</span>
-      </h1>
-      <p class="max-w-lg opacity-70 md:mx-auto text-center">
-        Get to know tools that will help you a lot in your language learning, here you have the freedom to browse
-        all
-        content without any limitation. Discover our resources or know more about us...
-      </p>
-      <div class="flex flex-wrap gap-3 md:space-x-3 px-10 ">
-        <a href="/resources"
-          class="items-center shadow-lg text-secondary-900-50-token btn hover:bg-success-900-50-token hover:text-success-50-900-token btn-sm variant-filled-tertiary gap-2 w-full">
-          <span>Start</span>
-          <PlayIcon class="p-1" size="24" />
-        </a>
-        <a href="/about" class="flex items-center btn btn-sm gap-2 w-full rounded-full">
-          <span>Know more</span>
-          <InfoIcon class="p-1" size="24" />
-        </a>
+      <div class="z-40">
+        <h1 class="font-bold text-4xl tracking-tight text-center">
+          <span class="mb-2">Welcome to</span>
+          <span class="
+          text-success-50-900-token bg-tertiary-900-50-token p-1 rounded drop-shadow-lg">Gerastucter</span>
+        </h1>
+        <p class="max-w-lg opacity-70 md:mx-auto text-center">
+          Get to know tools that will help you a lot in your language learning, here you have the freedom to browse
+          all
+          content without any limitation. Discover our resources or know more about us...
+        </p>
+        <div class="flex flex-wrap gap-3 md:space-x-3 px-10 ">
+          <a href="/resources"
+            class="items-center shadow-lg text-secondary-900-50-token btn hover:bg-success-900-50-token hover:text-success-50-900-token btn-sm variant-filled-tertiary gap-2 w-full">
+            <span>Start</span>
+            <PlayIcon class="p-1" size="24" />
+          </a>
+          <a href="/about" class="flex items-center btn btn-sm gap-2 w-full rounded-full">
+            <span>Know more</span>
+            <InfoIcon class="p-1" size="24" />
+          </a>
+        </div>
       </div>
     </div>
     
@@ -69,18 +70,17 @@
 
 <style type="text/css" media="all">
   #anim {
-    animation: changeColorRotate 4s alternate infinite;
+    animation: changeColor s alternate ease-in-out infinite;
   }
   
   
-  @keyframes changeColorRotate {
+  @keyframes changeColor {
     from {
       background: transparent;
-      transform: scale(2);
     }
+    
     to {
       background: #94a3e9;
-      transform: scale(3);
     }
   }
 </style>
