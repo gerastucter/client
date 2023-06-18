@@ -12,64 +12,71 @@
 	
 </script>
 
-<aside class="flex h-screen overflow-hidden bg-white">
-  <div class="flex flex-col justify-between w-20 bg-white border-r">
-    <nav class="mt-5 mb-10 flex flex-col justify-center">
-      <a class="flex flex-col justify-center items-center" href="/">
-        <img src="https://res.cloudinary.com/djglhdlln/image/upload/v1686587188/Logos/E_Type2_wvcxf1.png" alt="logo"
-          class="object-cover w-10 h-10 mb-3 mt-3">
+<aside class="flex h-screen overflow-hidden bg-secondary-50-900-token shadow-lg shadow-black">
+  <div class="flex flex-col justify-between w-20 bg-secondary-50-900-token border-r">
+    <nav class="mt-5 mb-10 flex flex-col justify-center bg-secondary-50-900-token">
+      <a class="flex flex-col justify-center items-center drop-shadow-lg w-full" href="/">
+        <img 
+          style="transform: scale(1.3)"
+          src="https://res.cloudinary.com/djglhdlln/image/upload/v1687050485/Logos/E_Type5_puidpz.png" alt="logo"
+          class="object-cover w-12 h-12 mb-3 mt-3">
       </a>
       <div class="mt-5">
         <ul class="space-y-3 flex flex-col items-center justify-center mb-10">
-          <div class="p-1 text-gray-500 text-sm">
+          <div class="p-1 text-sm">
             <p>PAGES</p>
           </div>
-          <li class="text-center bg-primary-500 p-3 mb-3 rounded-full">
-            <a href="/"
-              class="text-tertiary-500 transition duration-200 ease-in-out transform hover:text-blue-500 focus:shadow-outline hover:scale-95 text-center">
+          <li
+            class="mb-10 text-center shadow-lg text-secondary-900-50-token btn hover:bg-success-900-50-token hover:text-success-50-900-token btn-sm variant-filled-tertiary p-3">
+            <a href="/" class="transition duration-200 ease-in-out transform hover:scale-95 text-center">
               <p class="mx-auto text-center">
                 <FlagIcon />
               </p>
             </a>
           </li>
-          <li class="text-center bg-primary-500 p-3 mb-3 rounded-full">
+          <li
+            class="mb-3 text-center shadow-lg text-secondary-900-50-token btn hover:bg-success-900-50-token hover:text-success-50-900-token btn-sm variant-filled-tertiary p-3">
             <a href="/about"
-              class="text-tertiary-500 transition duration-200 ease-in-out transform hover:text-blue-500 focus:shadow-outline hover:scale-95 text-center">
+              class="transition duration-200 ease-in-out transform hover:scale-95 text-center">
               <p class="mx-auto text-center">
                 <InfoIcon />
               </p>
             </a>
           </li>
-          <li class="text-center bg-primary-500 p-3 mb-3 rounded-full">
+          <li
+            class="mb-3 text-center shadow-lg text-secondary-900-50-token btn hover:bg-success-900-50-token hover:text-success-50-900-token btn-sm variant-filled-tertiary p-3">
             <a href="/resources"
-              class="text-tertiary-500 transition duration-200 ease-in-out transform hover:text-blue-500 focus:shadow-outline hover:scale-95 text-center">
+              class="transition duration-200 ease-in-out transform hover:scale-95 text-center">
               <p class="mx-auto text-center">
                 <DatabaseIcon />
               </p>
             </a>
           </li>
-          <li class="text-center bg-primary-500 p-3 mb-3 rounded-full">
+          <li
+            class="mb-3 text-center shadow-lg text-secondary-900-50-token btn hover:bg-success-900-50-token hover:text-success-50-900-token btn-sm variant-filled-tertiary p-3">
             <a href="/faq"
-              class="text-tertiary-500 transition duration-200 ease-in-out transform hover:text-blue-500 focus:shadow-outline hover:scale-95 text-center">
+              class="transition duration-200 ease-in-out transform hover:scale-95 text-center">
               <p class="mx-auto text-center">
                 <HelpCircleIcon />
               </p>
             </a>
           </li>
-          <div class="p-1 text-gray-500 text-sm">
+          <div class="p-1 text-sm">
             <p class="mt-5">MORE</p>
           </div>
-                    <li class="text-center bg-primary-500 p-3 mb-3 rounded-full">
+          <li
+            class="mb-3 text-center shadow-lg text-secondary-900-50-token btn hover:bg-success-900-50-token hover:text-success-50-900-token btn-sm variant-filled-tertiary p-3">
             <a href="https://docs.google.com/document/d/1I0hgjf2MoJg_bJQKrJB4EnENfiJXVs8G/edit?usp=drivesdk&ouid=113732401299139248092&rtpof=true&sd=true"
-              class="text-tertiary-500 transition duration-200 ease-in-out transform hover:text-blue-500 focus:shadow-outline hover:scale-95 text-center">
+              class="transition duration-200 ease-in-out transform hover:scale-95 text-center">
               <p class="mx-auto text-center">
                 <CloudOffIcon />
               </p>
             </a>
           </li>
-                    <li class="text-center bg-primary-500 p-3 mb-3 rounded-full">
+          <li
+            class="mb-3 text-center shadow-lg text-secondary-900-50-token btn hover:bg-success-900-50-token hover:text-success-50-900-token btn-sm variant-filled-tertiary p-3">
             <a href="https://docs.google.com/document/d/1EkZQi2ubDCpaCz8InnxK8GKx8LH6PRHt/edit?usp=drivesdk&ouid=113732401299139248092&rtpof=true&sd=true"
-              class="text-tertiary-500 transition duration-200 ease-in-out transform hover:text-blue-500 focus:shadow-outline hover:scale-95 text-center">
+              class="transition duration-200 ease-in-out transform hover:scale-95 text-center">
               <p class="mx-auto text-center">
                 <FileTextIcon />
               </p>

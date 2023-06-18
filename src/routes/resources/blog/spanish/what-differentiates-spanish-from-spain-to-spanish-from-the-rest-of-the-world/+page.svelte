@@ -6,11 +6,11 @@
   <title>What differentiates Spanish from Spain to Spanish from the rest of the world?</title>
 </svelte:head>
 
-<main class="w-full h-full bg-gradient-to-tr from-secondary-100 to-secondary-500 flex justify-center">
+<main class="w-full h-full bg-primary-50-900-token flex justify-center">
   <article
-    class="max-w-2xl p-10 mx-auto space-y-16 w-screen h-full flex flex-col justify-center items-center text-gray-900">
+    class="max-w-2xl p-10 mx-auto space-y-16 w-screen h-full flex flex-col justify-center items-center">
     <div class="w-full text-start">
-      <h1 class="text-3xl font-bold text-primary-500 leadi ">
+      <h1 class="text-3xl font-bold leadi ">
         What differentiates Spanish from Spain to Spanish from the rest of the world?
       </h1>
   <div class="grid grid-cols-5 p-5 my-auto">
@@ -18,11 +18,11 @@
       <ul class="sticky top-0" data-hs-scrollspy="#scrollspy-2"
         data-hs-scrollspy-scrollable-parent="#scrollspy-scrollable-parent-2">
         <li data-hs-scrollspy-group>
-          <span class="block py-0.5 text-sm font-medium leading-6 text-white">Links</span>
+          <span class="block py-0.5 text-sm font-medium leading-6">Links</span>
           <ul>
             <li class="ml-4">
               <a href="#culture"
-                class="group flex items-start gap-x-2 py-0.5 text-sm text-white leading-6 hover:text-gray-800  dark:hover:text-gray-300 hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400">
+                class="group flex items-start gap-x-2 py-0.5 text-sm leading-6 hover:text-gray-800  dark:hover:text-gray-300 hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400">
                 <svg
                   class="w-2 h-6 text-gray-400 overflow-visible group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-500"
                   width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -34,7 +34,7 @@
             </li>
             <li class="ml-4">
               <a href="#history"
-                class="group flex items-start gap-x-2 py-0.5 text-sm text-white leading-6 hover:text-gray-800  dark:hover:text-gray-300 hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400">
+                class="group flex items-start gap-x-2 py-0.5 text-sm leading-6 hover:text-gray-800  dark:hover:text-gray-300 hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400">
                 <svg
                   class="w-2 h-6 text-gray-400 overflow-visible group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-500"
                   width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -46,7 +46,7 @@
             </li>
             <li class="ml-4">
               <a href="#grammar"
-                class="group flex items-start gap-x-2 py-0.5 text-sm text-white leading-6 hover:text-gray-800 dark:hover:text-gray-300 hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400">
+                class="group flex items-start gap-x-2 py-0.5 text-sm leading-6 hover:text-gray-800 dark:hover:text-gray-300 hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400">
                 <svg
                   class="w-2 h-6 text-gray-400 overflow-visible group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-500"
                   width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -62,15 +62,15 @@
     </div>
   </div>
       <p class="text-sm pl-1 text-gray-600">
-        <span class="hover:underline text-cyan-600">
+        <span class="hover:underline text-success-900-50-token drop-shadow-lg">
           <span>Spanish</span>
-        </span>on
-        <time class="text-white" datetime="2021-06-23">June 15th 2023</time>
+        </span>
+        <time datetime="2023-06-13">on June 18th 2023</time>
       </p>
     </div>
     <div>
-      <h2 class="text-2xl text-primary-500 font-bold mb-5">Introduction</h2>
-      <p class="flex text-md flex-col items-center justify-around text-white bg-secondary-500 p-5 rounded">
+      <h2 class="text-2xl font-bold mb-5">Introduction</h2>
+      <p class="flex text-md flex-col items-center justify-around bg-secondary-50-900-token p-5 rounded">
         <span class="mt-2 mb-2">
           Spanish, also known as Castilian, is a language spoken by millions of people around the globe. While there are
           many similarities between Spanish in Spain and elsewhere in the world, there are also several key differences
@@ -89,8 +89,8 @@
           regional slang can also vary widely.
         </span>
       </p>
-      <h2 id="culture" class="text-primary-500  text-2xl mt-8 font-bold mb-5">Culture</h2>
-      <p class="flex text-md flex-col items-center justify-around text-white bg-secondary-500 p-5 rounded">
+      <h2 id="culture" class="text-2xl mt-8 font-bold mb-5">Culture</h2>
+      <p class="flex text-md flex-col items-center justify-around bg-secondary-50-900-token p-5 rounded">
         <span class="mt-2 mb-2">Spanish culture in Spain and Latin America share many similarities, as both are heavily
           influenced by the history and traditions of the Spanish people. However, there are also some differences
           between the two cultures that have developed over time. For example, Latin American Spanish has been
@@ -109,8 +109,8 @@
           own unique traditions that reflect their respective histories and cultural influences.
         </span>
       </p>
-      <h2 id="history" class="text-primary-500  text-2xl mt-8 font-bold mb-5">History</h2>
-      <p class="flex text-md flex-col items-center justify-around text-white bg-secondary-500 p-5 rounded">
+      <h2 id="history" class=" text-2xl mt-8 font-bold mb-5">History</h2>
+      <p class="flex text-md flex-col items-center justify-around bg-secondary-50-900-token p-5 rounded">
         <span class="mt-2 mb-2">
           The history of the Spanish language in Spain is intricately tied to the history of the country itself.
           Spanish, also known as Castilian, began to develop in the north-central region of Spain during the medieval
@@ -133,8 +133,8 @@
           structure, and culture.
         </span>
       </p>
-      <h2 id="grammar" class="text-primary-500  text-2xl mt-8 font-bold mb-5">Grammar</h2>
-      <p class="flex text-md flex-col items-center justify-around text-white bg-secondary-500 p-5 rounded">
+      <h2 id="grammar" class=" text-2xl mt-8 font-bold mb-5">Grammar</h2>
+      <p class="flex text-md flex-col items-center justify-around bg-secondary-50-900-token p-5 rounded">
         <span class="mt-2 mb-2">
           There are some grammatical differences between Spanish in Spain and Spanish spoken elsewhere in the world.
           Some of the main differences include verb conjugation, pronouns, and idiomatic expressions.
@@ -150,8 +150,8 @@
           subjunctive when expressing doubt, emotion, or a hypothetical scenario.
         </span>
       </p>
-      <h2 class="text-2xl text-primary-500  mt-8 font-bold mb-5">Conclusion</h2>
-      <p class="flex text-md flex-col items-center justify-around text-white bg-secondary-500 p-5 rounded">
+      <h2 class="text-2xl  mt-8 font-bold mb-5">Conclusion</h2>
+      <p class="flex text-md flex-col items-center justify-around bg-secondary-50-900-token p-5 rounded">
         In summary, the Spanish language has evolved over time from earlier Latin dialects spoken in the north-central
         region of Spain and has become the dominant language in the country. Culturally, Spanish in Spain has been
         shaped by periods of Roman, Moorish, and Catholic influence, as well as regional customs from different areas of

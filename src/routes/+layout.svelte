@@ -2,6 +2,11 @@
   // Import theme
   import '../theme.postcss'
   
+  
+  
+  //Theme system 
+// import { autoModeWatcher } from '@skeletonlabs/skeleton';
+  
   // Import components
   import SideBarComponent from '../utilities/components/SideBarComponent.svelte'
   import FooterComponent from  '../utilities/components/FooterComponent.svelte'
@@ -15,6 +20,8 @@
 </script>
 
 <svelte:head>
+  <!--{@html `<script>${autoModeWatcher.toString()} autoModeWatcher();</script>`}-->
+  
   <script id="bot" type="text/javascript">
     (function(d, t) {
       var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
@@ -30,7 +37,7 @@
   </script>
 </svelte:head>
 
-<AppShell class="bg-gradient-to-t from-primary-500 to-secondary-500 font-mono">
+<AppShell class="bg-primary-50-900-token">
   
   <!--<svelte:fragment slot="header">-->
     

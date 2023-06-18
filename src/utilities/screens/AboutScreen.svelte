@@ -6,10 +6,10 @@
   <meta name="description" content="What is Geratucter? And what is its mission?">
   <meta name="keywords" content="KNOW, GERASTUCTER, ABOUT">
   <meta name="author" content="Gerastucter">
-  <title>ABOUT | GERASTUCTER</title>
+  <title>ABOUT</title>
 </svelte:head>
 
-<main class="bg-secondary-100 p-6 md:p-9 text-primary-800">
+<main class="bg-primary-50-900-token p-6 md:p-9">
   <div class="container mx-auto p-4 space-y-2 text-center">
     <h2 class="text-3xl font-bold">ABOUT GERASTUCTER</h2>
     <p>FEATURES</p>
@@ -20,7 +20,7 @@
   <section class="flex items-start overflow-x-scroll">
     <div class="flex flex-col items-start p-12 mt-5">
       <div class="flex items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 text-cyan-600">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 text-success-50-900-token">
           <path fill-rule="evenodd"
             d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
             clip-rule="evenodd"></path>
@@ -33,7 +33,7 @@
             <div class="mt-12 space-y-12">
               <div class="flex items-center">
                 <div class="flex-shrink-0">
-                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-cyan-600 text-gray-50">
+                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-success-50-900-token">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                       class="w-7 h-7">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
@@ -41,14 +41,14 @@
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h4 class="text-lg font-medium leadi text-gray-900">
+                  <h4 class="text-lg font-medium leadi">
                     Easy to use
                   </h4>
                 </div>
               </div>
               <div class="flex items-center">
                 <div class="flex-shrink-0">
-                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-cyan-600 text-gray-50">
+                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-success-50-900-token">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                       class="w-7 h-7">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
@@ -56,14 +56,14 @@
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h4 class="text-lg font-medium leadi text-gray-900">
+                  <h4 class="text-lg font-medium leadi">
                     No login required
                   </h4>
                 </div>
               </div>
               <div class="flex items-center">
                 <div class="flex-shrink-0">
-                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-cyan-600 text-gray-50">
+                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-success-50-900-token">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                       class="w-7 h-7">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
@@ -71,7 +71,7 @@
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h4 class="text-lg font-medium leadi text-gray-900">
+                  <h4 class="text-lg font-medium leadi">
                     No need to download anything
                   </h4>
                 </div>
@@ -83,7 +83,7 @@
     </div>
     <div class="flex flex-col items-start p-12 mt-5">
       <div class="flex items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 text-cyan-600">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 text-success-50-900-token">
           <path fill-rule="evenodd"
             d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
             clip-rule="evenodd"></path>
@@ -96,7 +96,7 @@
             <div class="mt-12 space-y-12">
               <div class="flex items-center">
                 <div class="flex-shrink-0">
-                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-cyan-600 text-gray-50">
+                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-success-50-900-token">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                       class="w-7 h-7">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
@@ -104,14 +104,14 @@
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h4 class="text-lg font-medium leadi text-gray-900">
+                  <h4 class="text-lg font-medium leadi">
                     Clean Design
                   </h4>
                 </div>
               </div>
               <div class="flex items-center">
                 <div class="flex-shrink-0">
-                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-cyan-600 text-gray-50">
+                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-success-50-900-token">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                       class="w-7 h-7">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
@@ -119,14 +119,14 @@
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h4 class="text-lg font-medium leadi text-gray-900">
+                  <h4 class="text-lg font-medium leadi">
                     Eye-catching colors
                   </h4>
                 </div>
               </div>
               <div class="flex items-center">
                 <div class="flex-shrink-0">
-                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-cyan-600 text-gray-50">
+                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-success-50-900-token">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                       class="w-7 h-7">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
@@ -134,7 +134,7 @@
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h4 class="text-lg font-medium leadi text-gray-900">
+                  <h4 class="text-lg font-medium leadi">
                     Stylized for non-complexity.
                   </h4>
                 </div>
@@ -146,7 +146,7 @@
     </div>
     <div class="flex flex-col items-start p-12 mt-5">
       <div class="flex items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 text-cyan-600">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 text-success-50-900-token">
           <path fill-rule="evenodd"
             d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
             clip-rule="evenodd"></path>
@@ -159,7 +159,7 @@
             <div class="mt-12 space-y-12">
               <div class="flex items-center">
                 <div class="flex-shrink-0">
-                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-cyan-600 text-gray-50">
+                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-success-50-900-token">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                       class="w-7 h-7">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
@@ -167,14 +167,14 @@
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h4 class="text-lg font-medium leadi text-gray-900">
+                  <h4 class="text-lg font-medium leadi">
                     Liberator
                   </h4>
                 </div>
               </div>
               <div class="flex items-center">
                 <div class="flex-shrink-0">
-                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-cyan-600 text-gray-50">
+                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-success-50-900-token">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                       class="w-7 h-7">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
@@ -182,14 +182,14 @@
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h4 class="text-lg font-medium leadi text-gray-900">
+                  <h4 class="text-lg font-medium leadi">
                     High level
                   </h4>
                 </div>
               </div>
               <div class="flex items-center">
                 <div class="flex-shrink-0">
-                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-cyan-600 text-gray-50">
+                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-success-50-900-token">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                       class="w-7 h-7">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
@@ -197,7 +197,7 @@
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h4 class="text-lg font-medium leadi text-gray-900">
+                  <h4 class="text-lg font-medium leadi">
                     Free accessible for everyone
                   </h4>
                 </div>
@@ -209,7 +209,7 @@
     </div>
     <div class="flex flex-col items-start p-12 mt-5">
       <div class="flex items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 text-cyan-600">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 text-success-50-900-token">
           <path fill-rule="evenodd"
             d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
             clip-rule="evenodd"></path>
@@ -222,7 +222,7 @@
             <div class="mt-12 space-y-12">
               <div class="flex items-center">
                 <div class="flex-shrink-0">
-                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-cyan-600 text-gray-50">
+                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-success-50-900-token">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                       class="w-7 h-7">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
@@ -230,14 +230,14 @@
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h4 class="text-lg font-medium leadi text-gray-900">
+                  <h4 class="text-lg font-medium leadi">
                     Current content
                   </h4>
                 </div>
               </div>
               <div class="flex items-center">
                 <div class="flex-shrink-0">
-                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-cyan-600 text-gray-50">
+                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-success-50-900-token">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                       class="w-7 h-7">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
@@ -245,14 +245,14 @@
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h4 class="text-lg font-medium leadi text-gray-900">
+                  <h4 class="text-lg font-medium llead">
                     Currently developed
                   </h4>
                 </div>
               </div>
               <div class="flex items-center">
                 <div class="flex-shrink-0">
-                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-cyan-600 text-gray-50">
+                  <div class="flex items-center justify-center w-12 h-12 rounded-md bg-success-50-900-token">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                       class="w-7 h-7">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
@@ -260,7 +260,7 @@
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h4 class="text-lg font-medium leadi text-gray-900">
+                  <h4 class="text-lg font-medium leadi">
                     Not futuristic, not ancient.
                   </h4>
                 </div>
