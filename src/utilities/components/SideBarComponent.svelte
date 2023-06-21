@@ -1,5 +1,6 @@
+
 <script type="text/javascript" charset="utf-8">
-  // Import icons
+    // Import icons
 	import { 
 	  FlagIcon, 
 	  InfoIcon,
@@ -9,11 +10,25 @@
 	  FileTextIcon
 	  } 
 	from 'svelte-feather-icons';
-	
+
+
+  let isModalOpen = false;
+  
+  function openModal() {
+    if (isModalOpen = false) {
+      return isModalOpen = true
+    }
+  }
+  function closeModal() {
+    if (isModalOpen = true) {
+      return isModalOpen = false
+    }
+  }
+  
 </script>
 
-<aside class="flex h-screen overflow-hidden bg-secondary-50-900-token shadow-lg shadow-black">
-  <div class="flex flex-col justify-between w-20 bg-secondary-50-900-token border-r">
+<aside class="flex items-start h-screen overflow-hidden bg-secondary-50-900-token shadow-lg shadow-black">
+  <div class="flex flex-col justify-between w-20 bg-secondary-50-900-token">
     <nav class="mt-5 mb-10 flex flex-col justify-center bg-secondary-50-900-token">
       <a class="flex flex-col justify-center items-center drop-shadow-lg w-full" href="/">
         <img 

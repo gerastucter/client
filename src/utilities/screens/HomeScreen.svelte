@@ -39,7 +39,7 @@
         </div>
       </div>
       <div class="z-40">
-        <h1 class="font-bold text-4xl tracking-tight text-center">
+        <h1 class="font-bold text-4xl tracking-tight text-center mb-4">
           <span class="mb-2">Welcome to</span>
           <span class="
           text-success-50-900-token bg-tertiary-900-50-token p-1 rounded drop-shadow-lg">Gerastucter</span>
@@ -49,7 +49,7 @@
           all
           content without any limitation. Discover our resources or know more about us...
         </p>
-        <div class="flex flex-wrap gap-3 md:space-x-3 px-10 ">
+        <div class="flex flex-wrap gap-3 md:space-x-3 px-10 py-12">
           <a href="/resources"
             class="items-center shadow-lg text-secondary-900-50-token btn hover:bg-success-900-50-token hover:text-success-50-900-token btn-sm variant-filled-tertiary gap-2 w-full">
             <span>Start</span>
@@ -70,7 +70,7 @@
 
 <style type="text/css" media="all">
   #anim {
-    animation: changeColor s alternate ease-in-out infinite;
+    animation: changeColor 4s alternate ease-in-out infinite;
   }
   
   

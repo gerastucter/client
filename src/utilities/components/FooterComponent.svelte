@@ -3,7 +3,7 @@
 </script>
 
 
-<footer class="shadow-lg w-full bg-secondary-50-900-token " aria-labelledby="footer-heading">
+<footer class="shadow-lg w-full bg-secondary-50-900-token" aria-labelledby="footer-heading">
   <h2 id="footer-heading" class="sr-only">Footer</h2>
   <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-16 ">
     <div class="flex flex-wrap items-center space-y-6 bg-secondary-0-900-token ">
@@ -15,7 +15,7 @@
                 <div class="flex flex-col flex-grow overflow-y-auto">
                   <div class="flex flex-col flex-grow px-4 bg-secondary-50-900-token">
                     <nav class="flex-1 space-y-1 bg-secondary-50-900-token ">
-                      <p class="px-4 pt-4 text-xs font-semibold text-gray-400 uppercase">
+                      <p class="px-4 pt-4 text-xs font-semibold text-xs uppercase">
                         Company
                       </p>
                       <ul>

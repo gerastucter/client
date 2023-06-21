@@ -1,4 +1,6 @@
 <svelte:head>
+  
+  
   <meta name="description"
     content="Discover what makes the Spanish of Spain so different from the rest such as historical facts, culture, and even grammar.">
   <meta name="keywords" content="LANGUAGE, LEARNING, BLOG, SPANISH, CULTURE, HISTORY, GRAMMAR">
@@ -7,66 +9,68 @@
 </svelte:head>
 
 <main class="w-full h-full bg-primary-50-900-token flex justify-center">
-  <article
-    class="max-w-2xl p-10 mx-auto space-y-16 w-screen h-full flex flex-col justify-center items-center">
+  <article class="max-w-2xl p-10 mx-auto space-y-16 w-screen h-full flex flex-col justify-center items-center">
     <div class="w-full text-start">
-      <h1 class="text-3xl font-bold leadi ">
+      <h1 class="relative text-3xl font-bold leadi ">
         What differentiates Spanish from Spain to Spanish from the rest of the world?
       </h1>
-  <div class="grid grid-cols-5 p-5 my-auto">
-    <div class="col-span-2">
-      <ul class="sticky top-0" data-hs-scrollspy="#scrollspy-2"
-        data-hs-scrollspy-scrollable-parent="#scrollspy-scrollable-parent-2">
-        <li data-hs-scrollspy-group>
-          <span class="block py-0.5 text-sm font-medium leading-6">Links</span>
-          <ul>
-            <li class="ml-4">
-              <a href="#culture"
-                class="group flex items-start gap-x-2 py-0.5 text-sm leading-6 hover:text-gray-800  dark:hover:text-gray-300 hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400">
-                <svg
-                  class="w-2 h-6 text-gray-400 overflow-visible group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-500"
-                  width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 2L10.6464 7.64645C10.8417 7.84171 10.8417 8.15829 10.6464 8.35355L5 14"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                </svg>
-                CULTURE
-              </a>
-            </li>
-            <li class="ml-4">
-              <a href="#history"
-                class="group flex items-start gap-x-2 py-0.5 text-sm leading-6 hover:text-gray-800  dark:hover:text-gray-300 hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400">
-                <svg
-                  class="w-2 h-6 text-gray-400 overflow-visible group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-500"
-                  width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 2L10.6464 7.64645C10.8417 7.84171 10.8417 8.15829 10.6464 8.35355L5 14"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                </svg>
-                HISTORY
-              </a>
-            </li>
-            <li class="ml-4">
-              <a href="#grammar"
-                class="group flex items-start gap-x-2 py-0.5 text-sm leading-6 hover:text-gray-800 dark:hover:text-gray-300 hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400">
-                <svg
-                  class="w-2 h-6 text-gray-400 overflow-visible group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-500"
-                  width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 2L10.6464 7.64645C10.8417 7.84171 10.8417 8.15829 10.6464 8.35355L5 14"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                </svg>
-                GRAMMAR
-              </a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-      <p class="text-sm pl-1 text-gray-600">
+      <div class="flex items-center justify-between text-center my-5 mb-6 pr-24">
+                      <p class="text-sm pl-1 text-gray-600">
         <span class="hover:underline text-success-900-50-token drop-shadow-lg">
           <span>Spanish</span>
         </span>
         <time datetime="2023-06-13">on June 18th 2023</time>
       </p>
+        <div class="col-span-2 pb-4">
+          <ul style="
+      position: fixed;
+      text-shadow: 2px 2px 5px black;
+      " data-hs-scrollspy="#scrollspy-2"
+            data-hs-scrollspy-scrollable-parent="#scrollspy-scrollable-parent-2">
+            <li data-hs-scrollspy>
+              <span class="block py-0.5 text-sm font-medium leading-6">Links</span>
+              <ul>
+                <li class="ml-4">
+                  <a href="#culture"
+                    class="group flex items-start gap-x-2 py-0.5 text-sm leading-6 hover:text-gray-800  dark:hover:text-gray-300 hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400">
+                    <svg
+                      class="w-2 h-6 text-gray-400 overflow-visible group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-500"
+                      width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5 2L10.6464 7.64645C10.8417 7.84171 10.8417 8.15829 10.6464 8.35355L5 14"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                    CULTURE
+                  </a>
+                </li>
+                <li class="ml-4">
+                  <a href="#history"
+                    class="group flex items-start gap-x-2 py-0.5 text-sm leading-6 hover:text-gray-800  dark:hover:text-gray-300 hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400">
+                    <svg
+                      class="w-2 h-6 text-gray-400 overflow-visible group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-500"
+                      width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5 2L10.6464 7.64645C10.8417 7.84171 10.8417 8.15829 10.6464 8.35355L5 14"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                    HISTORY
+                  </a>
+                </li>
+                <li class="ml-4">
+                  <a href="#grammar"
+                    class="group flex items-start gap-x-2 py-0.5 text-sm leading-6 hover:text-gray-800 dark:hover:text-gray-300 hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400">
+                    <svg
+                      class="w-2 h-6 text-gray-400 overflow-visible group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-500"
+                      width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5 2L10.6464 7.64645C10.8417 7.84171 10.8417 8.15829 10.6464 8.35355L5 14"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                    GRAMMAR
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
     <div>
       <h2 class="text-2xl font-bold mb-5">Introduction</h2>

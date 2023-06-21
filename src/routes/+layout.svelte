@@ -17,6 +17,9 @@
 	
 	// Errors and more
 	import { page } from '$app/stores';
+	
+	
+	
 </script>
 
 <svelte:head>
