@@ -12,10 +12,8 @@
 
 
 <main class="container mx-auto text-center p-4 md:text-center mb-5">
-  
   <section class="relative flex flex-col items-center justify-center">
     <div class="relative z-[1] space-y-6 pt-32 pb-24">
-      
       <div class="absolute items-center w-full px-5 py-12 mx-auto max-w-7xl lg:px-16 lg:py-32 md:px-12">
         <div class="relative items-center w-full py-12 pb-12 mx-auto mt-12 max-w-7xl">
           <svg id="anim" fill="none" viewBox="0 0 400 400" height="100%" width="100%" xmlns="http://www.w3.org/2000/svg"
