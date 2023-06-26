@@ -1,5 +1,5 @@
 <script type="text/javascript" charset="utf-8">
-  import { PlayIcon, InfoIcon } from 'svelte-feather-icons'
+  import { PlayIcon, InfoIcon, ArrowUpIcon } from 'svelte-feather-icons'
 </script>
 
 <svelte:head>
@@ -11,7 +11,7 @@
 </svelte:head>
 
 
-<main class="container mx-auto text-center p-4 md:text-center mb-5">
+<main id="top" class="container mx-auto text-center p-4 md:text-center mb-5">
   <section class="relative flex flex-col items-center justify-center">
     <div class="relative z-[1] space-y-6 pt-32 pb-24">
       <div class="absolute items-center w-full px-5 py-12 mx-auto max-w-7xl lg:px-16 lg:py-32 md:px-12">
@@ -59,7 +59,21 @@
             <InfoIcon class="p-1" size="24" />
           </a>
         </div>
-        <blockquote class="relative p-4">
+        <figure class="w-full pb-5 pt-6 flex items-center justify-center">
+          <img class="px-12 rounded drop-shadow-lg" src="https://share.creavite.co/Fgy26SaZZRu6ETX1.gif" alt="phonetic-gerastucter" />
+        </figure>
+        <p class=" mb-12 px-12">
+<span class="block text-center py-1.5 px-12 rounded font-medium bg-secondary-50-900-token">
+  
+The word <b>"GERASTUCTER"</b>" is inspired by the word <b translate="no">"GESTURE</b>", both in its phonetics and in its meaning.
+The word  <b translate="no">"GESTURE"</b>" for Gerastucter, refers to a way of expressing something to someone without the need for a single method, but rather using various methods so that more people come to understand the past information. Just as a deaf person who has access to reading and can read a book from beginning to end cannot listen to a podcast for example, we have a visually impaired person who is basically the opposite of the deaf person, so Gerastucter is always focused on bringing content to all kinds of people.
+  
+</span>
+<span class="w-2 h-2 inline-block bg-indigo-500 rounded-full mr-2 mt-6"></span>
+  <span class="mt-6">Receive our gesture of trust for your language learning
+ 👋🏻👋🏽👋🏿 </span>
+        </p>
+        <blockquote class="relative mt-12 px-12">
           <svg
             class="absolute top-0 left-0 transform -translate-x-6 -translate-y-8 h-16 w-16 text-gray-100 dark:text-gray-700"
             width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -79,6 +93,10 @@
               </em></p>
           </div>
         </blockquote>
+        <a class="items-center shadow-lg text-secondary-900-50-token btn hover:bg-success-900-50-token hover:text-success-50-900-token btn-sm variant-filled-tertiary gap-2 w-full mt-12" href="#top">
+          <span>Go to top</span>
+          <ArrowUpIcon/>
+        </a>
       </div>
     </div>
   </section>
