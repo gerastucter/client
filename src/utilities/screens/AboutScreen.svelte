@@ -10,25 +10,6 @@
 </svelte:head>
 
 <main class="bg-primary-50-900-token p-6 md:p-9">
-  <section class="mt-5 mb-8 w-full p-5 flex justify-center items-center">
-    <figure
-      class="ml-auto relative z-[1] max-w-full w-full h-auto rounded-b-lg shadow-[0_2.75rem_3.5rem_-2rem_rgb(45_55_75_/_20%),_0_0_5rem_-2rem_rgb(45_55_75_/_15%)] dark:shadow-[0_2.75rem_3.5rem_-2rem_rgb(0_0_0_/_20%),_0_0_5rem_-2rem_rgb(0_0_0_/_15%)]">
-      <div class="relative flex items-center max-w-full bg-gray-800 rounded-t-lg py-2 px-14 dark:bg-gray-700">
-        <div class="flex space-x-1 absolute top-2/4 left-4 -translate-y-1">
-          <span class="w-2 h-2 bg-gray-600 rounded-full dark:bg-gray-600"></span>
-          <span class="w-2 h-2 bg-gray-600 rounded-full dark:bg-gray-600"></span>
-          <span class="w-2 mr-2 h-2 bg-gray-600 rounded-full dark:bg-gray-600"></span>
-        </div>
-        <div
-          class="flex justify-center items-center h-full bg-gray-700 text-[.25rem] text-gray-400 rounded-sm sm:text-[.5rem] dark:bg-gray-600 dark:text-gray-400 w-full">
-          www.gerastucter.site</div>
-      </div>
-      
-      <div class="bg-gray-800 rounded-b-lg">
-        <img class="max-w-full h-auto rounded-b-lg" src="https://res.cloudinary.com/djglhdlln/image/upload/v1687050357/Logos/E_Type6_rasrcp.png" alt="Image Description">
-      </div>
-    </figure>
-  </section>
   <div class="container mx-auto p-4 space-y-2 text-center">
     <h2 class="text-3xl font-bold">ABOUT GERASTUCTER</h2>
     <p>FEATURES</p>

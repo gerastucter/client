@@ -4,7 +4,7 @@
   
   
   //Theme system 
-// import { autoModeWatcher } from '@skeletonlabs/skeleton';
+  import { autoModeWatcher } from '@skeletonlabs/skeleton';
   
   // Import components
   import SideBarComponent from '../utilities/components/SideBarComponent.svelte'
@@ -22,7 +22,7 @@
 </script>
 
 <svelte:head>
-  <!--{@html `<script>${autoModeWatcher.toString()} autoModeWatcher();</script>`}-->
+  {@html `<script>${autoModeWatcher.toString()} autoModeWatcher();</script>`}
   
   <script id="bot" type="text/javascript">
     (function(d, t) {
