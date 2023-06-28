@@ -41,7 +41,6 @@
 
 
 
- 
 <AppShell class="bg-primary-50-900-token">
   <svelte:fragment slot="sidebarLeft">
     {#if $page.status != 404}
