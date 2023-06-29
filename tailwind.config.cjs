@@ -3,6 +3,9 @@ import forms from '@tailwindcss/forms'
 import typography from '@tailwindcss/typography'
 import skeleton from '@skeletonlabs/skeleton/tailwind/skeleton.cjs'
 const preline = require('preline/plugin')
+const prettierPluginSvelte = require("prettier-plugin-svelte")
+const prettierPluginTailwindcss = require("prettier-plugin-tailwindcss");
+
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -11,5 +14,5 @@ module.exports = {
 	theme: {
 		extend: {},
 	},
-	plugins: [forms,typography,...skeleton(), preline],
+	plugins: [forms,typography,...skeleton(), preline, prettierPluginTailwindcss, prettierPluginSvelte],
 }
