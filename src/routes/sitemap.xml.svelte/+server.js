@@ -1,4 +1,4 @@
-const posts = [
+const spanishblogposts = [
   {
     title: "Spanish-001",
     slug: "what-differentiates-spanish-from-spain-to-spanish-from-the-rest-of-the-world", 
@@ -25,7 +25,7 @@ const blog = {
 export async function GET({
     url
 }) {
-    const body = sitemap(posts, pages);
+    const body = sitemap(spanishblogposts, pages);
     const response = new Response(body);
     response.headers.set('Cache-Control', 'max-age=0, s-maxage=3600');
     response.headers.set('Content-Type', 'application/xml');
@@ -53,9 +53,9 @@ const sitemap = (posts, pages) => `<?xml version="1.0" encoding="UTF-8" ?>
     <priority>0.7</priority>
   </url>
   `).join('')}
-  ${posts.map((post) => post.visible ? null : `
+  ${spanishblogposts.map((post) => post.visible ? null : `
   <url>
-    <loc>${site}/${blog.slug}/${post.slug}</loc>
+    <loc>${site}/${blog.slug}/spanish/${post.slug}</loc>
     <changefreq>weekly</changefreq>
     <lastmod>${post.updatedAt}</lastmod>
     <priority>0.3</priority>
