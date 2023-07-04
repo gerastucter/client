@@ -10,8 +10,8 @@
   <title>BLOG</title>
 </svelte:head>
 
-<main class="bg-secondary-500 h-full">
-  <div class="p-6 bg-primary-50-900-token space-y-4">
+<main class="h-full bg-primary-50-900-token">
+  <div class="p-6 space-y-4">
     <div class="flex justify-between items-center">
       <b>Choose a language</b>
     </div>

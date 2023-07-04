@@ -1,3 +1,8 @@
+const blog = {
+    page: "blog",
+    slug: "resources/blog", 
+}
+
 const spanishblogposts = [
   {
     title: "Spanish-001",
@@ -5,16 +10,11 @@ const spanishblogposts = [
     updatedAt: "2023-06-18"
   }
   ]
-//list of posts containing a slug [{title: "Test title", slug: "test-title", updatedAt: "2023-01-01"}]
+  
 
 const pages = ["about", "resources", "faq"] //list of pages as a string ex. ["about", "blog", "contact"]
 
-const site = "https://www.gerastucter.site"
-
-const blog = {
-    page: "blog",
-    slug: "resources/blog", 
-  }
+const site = "https://www.en.gerastucter.site"
 
 // const tutoring = {
 //     page: "blog",

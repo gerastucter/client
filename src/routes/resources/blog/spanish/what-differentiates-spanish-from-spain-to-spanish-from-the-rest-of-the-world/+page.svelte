@@ -93,8 +93,8 @@
           www.gerastucter.site</div>
       </div>
       
-      <div class="bg-gray-800 rounded-b-lg">
-        <img class="max-w-full h-auto rounded-b-lg" src="https://res.cloudinary.com/djglhdlln/image/upload/v1687050357/Logos/E_Type6_rasrcp.png" alt="Image Description">
+      <div class="bg-gray-800 w-full flex items-center justify-center rounded-b-lg">
+        <img class="max-w-full h-auto rounded-b-lg" src="https://res.cloudinary.com/djglhdlln/image/upload/v1688410073/Logos/TypeMainLogoVertical_ivgmez.png">
       </div>
     </figure>
   </section>

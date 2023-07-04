@@ -33,7 +33,7 @@
       <a class="flex flex-col justify-center items-center drop-shadow-lg w-full" href="/">
         <img 
           style="transform: scale(1.3)"
-          src="https://res.cloudinary.com/djglhdlln/image/upload/v1687050485/Logos/E_Type5_puidpz.png" alt="logo"
+          src="https://res.cloudinary.com/djglhdlln/image/upload/v1688410073/Logos/TypeSymbolicGradient_dwkabn.png" alt="logo"
           class="object-cover w-12 h-12 mb-3 mt-3">
       </a>
       <div class="mt-5">
