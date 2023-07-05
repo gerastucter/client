@@ -40,16 +40,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.41.0"],\
             ["eslint-config-prettier", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:8.8.0"],\
             ["eslint-plugin-svelte", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:2.30.0"],\
-            ["framework7-svelte", "npm:8.0.5"],\
             ["postcss", "npm:8.4.24"],\
             ["preline", "npm:1.9.0"],\
             ["prettier", "npm:2.8.8"],\
             ["prettier-plugin-svelte", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:2.10.1"],\
             ["prettier-plugin-tailwindcss", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.3.0"],\
             ["svelte", "npm:3.59.1"],\
-            ["svelte-alerter-component", "npm:1.3.0"],\
             ["svelte-feather-icons", "npm:4.0.1"],\
-            ["svelte-spinkit", "npm:1.0.3"],\
             ["tailwind-merge", "npm:1.13.1"],\
             ["tailwindcss", "npm:3.3.2"],\
             ["vite", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:4.3.9"]\
@@ -1700,15 +1697,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["framework7-svelte", [\
-        ["npm:8.0.5", {\
-          "packageLocation": "./.yarn/cache/framework7-svelte-npm-8.0.5-d3a75ddbf5-e6de021893.zip/node_modules/framework7-svelte/",\
-          "packageDependencies": [\
-            ["framework7-svelte", "npm:8.0.5"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["fs-minipass", [\
         ["npm:2.1.0", {\
           "packageLocation": "./.yarn/cache/fs-minipass-npm-2.1.0-501ef87306-1b8d128dae.zip/node_modules/fs-minipass/",\
@@ -2487,16 +2475,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.41.0"],\
             ["eslint-config-prettier", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:8.8.0"],\
             ["eslint-plugin-svelte", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:2.30.0"],\
-            ["framework7-svelte", "npm:8.0.5"],\
             ["postcss", "npm:8.4.24"],\
             ["preline", "npm:1.9.0"],\
             ["prettier", "npm:2.8.8"],\
             ["prettier-plugin-svelte", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:2.10.1"],\
             ["prettier-plugin-tailwindcss", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.3.0"],\
             ["svelte", "npm:3.59.1"],\
-            ["svelte-alerter-component", "npm:1.3.0"],\
             ["svelte-feather-icons", "npm:4.0.1"],\
-            ["svelte-spinkit", "npm:1.0.3"],\
             ["tailwind-merge", "npm:1.13.1"],\
             ["tailwindcss", "npm:3.3.2"],\
             ["vite", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:4.3.9"]\
@@ -3491,15 +3476,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["svelte-alerter-component", [\
-        ["npm:1.3.0", {\
-          "packageLocation": "./.yarn/cache/svelte-alerter-component-npm-1.3.0-8cedeb5938-cbee1cbb02.zip/node_modules/svelte-alerter-component/",\
-          "packageDependencies": [\
-            ["svelte-alerter-component", "npm:1.3.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["svelte-eslint-parser", [\
         ["npm:0.30.0", {\
           "packageLocation": "./.yarn/cache/svelte-eslint-parser-npm-0.30.0-2243eecd77-d595c912e1.zip/node_modules/svelte-eslint-parser/",\
@@ -3553,15 +3529,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/svelte",\
             "svelte"\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["svelte-spinkit", [\
-        ["npm:1.0.3", {\
-          "packageLocation": "./.yarn/cache/svelte-spinkit-npm-1.0.3-549f9355c8-307f78211c.zip/node_modules/svelte-spinkit/",\
-          "packageDependencies": [\
-            ["svelte-spinkit", "npm:1.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\

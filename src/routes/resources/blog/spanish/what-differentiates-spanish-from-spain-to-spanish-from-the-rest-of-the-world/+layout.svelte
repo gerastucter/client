@@ -1,6 +1,9 @@
- 
- 
- 
+
+<!--ads-->
+
+
+
+
   <!-- Alert -->
 <section class="p-8 m-5 md:p-24 flex items-center justify-center">
   
@@ -51,7 +54,7 @@
   </div>
 </section>
   <!-- End Alert -->
-  <slot/>
+<slot/>
 <style type="text/css" media="all">
   #ck-alert {
     animation: fade 12s ease-out normal forwards;
