@@ -12,7 +12,9 @@ export const nodes = [
 	() => import('./nodes/8'),
 	() => import('./nodes/9'),
 	() => import('./nodes/10'),
-	() => import('./nodes/11')
+	() => import('./nodes/11'),
+	() => import('./nodes/12'),
+	() => import('./nodes/13')
 ];
 
 export const server_loads = [];
@@ -25,7 +27,9 @@ export const dictionary = {
 		"/resources/blog": [8],
 		"/resources/blog/spanish": [9,[2]],
 		"/resources/blog/spanish/what-differentiates-spanish-from-spain-to-spanish-from-the-rest-of-the-world": [10,[2,3]],
-		"/resources/tutoring": [11]
+		"/resources/ebooks": [11],
+		"/resources/ebooks/top-10-steps-to-become-a-poliglot-by-yourself-and-without-spending-money-ebook-demo": [12],
+		"/resources/tutoring": [13]
 	};
 
 export const hooks = {

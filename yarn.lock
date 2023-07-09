@@ -413,6 +413,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sveltejs/svelte-scroller@npm:^2.0.7":
+  version: 2.0.7
+  resolution: "@sveltejs/svelte-scroller@npm:2.0.7"
+  checksum: 1d79a0c874a9620427927ae81897e8306ed177384da1b34f7411a89ade67949a1258297365306c56472be91a61c9bcd720b304380b4d26128da2af9cbb571169
+  languageName: node
+  linkType: hard
+
 "@sveltejs/vite-plugin-svelte-inspector@npm:^1.0.2":
   version: 1.0.2
   resolution: "@sveltejs/vite-plugin-svelte-inspector@npm:1.0.2"
@@ -2029,6 +2036,7 @@ __metadata:
     "@skeletonlabs/skeleton": ^1.6.2
     "@sveltejs/adapter-auto": ^2.0.0
     "@sveltejs/kit": ^1.5.0
+    "@sveltejs/svelte-scroller": ^2.0.7
     "@tailwindcss/forms": ^0.5.3
     "@tailwindcss/typography": ^0.5.9
     autoprefixer: ^10.4.14
@@ -2043,6 +2051,7 @@ __metadata:
     prettier-plugin-tailwindcss: ^0.3.0
     svelte: ^3.54.0
     svelte-feather-icons: ^4.0.1
+    svelte-scrollprogress: ^1.0.6
     tailwind-merge: ^1.13.1
     tailwindcss: ^3.3.2
     vite: ^4.3.0
@@ -2859,6 +2868,15 @@ __metadata:
   peerDependencies:
     svelte: ^3.19.0 || ^4.0.0-next.0
   checksum: bf1179de47100353ef002d96e2b20782420a388cc5a451a1c3564643fde0423ac7b689a4cded728a6dee5e30a80e44089790be4bf5c37189b14704bf8a6efaf6
+  languageName: node
+  linkType: hard
+
+"svelte-scrollprogress@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "svelte-scrollprogress@npm:1.0.6"
+  peerDependencies:
+    svelte: ^3.54.0
+  checksum: bfa0e54b1e886db1c7a8f48b2495334ce0b50eb4cd1da71305ddce9bec7a223e3f33d3adc841279b6f5aae80ce3efa9d4ef10a5bc3893befbf6b88b5f9a676e6
   languageName: node
   linkType: hard
 

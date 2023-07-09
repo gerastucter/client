@@ -13,9 +13,50 @@
 <div class="container mx-auto max-w-screen-lg p-5">
   <div class="grid grid-cols-1 md:grid-cols-12">
     
+    
     <div class="space-y-4 md:col-span-6 p-4">
       <h1 class="text-3xl md:text-3xl font-bold">
-        Our <span class="text-success-50-900-token drop-shadow-lg">BLOG</span> has a wide range of interesting content
+        You can get <span class="text-success-500 drop-shadow-lg">FREE EBOOKS</span> from gerastucter in seconds
+      </h1>
+      <p class="max-w-xl opacity-60">
+        Get to know our free ebooks by clicking on the "go" button
+      </p>
+      <ul class="list-items">
+        <li>
+          <span>
+            <CheckCircleIcon size="22" />
+          </span>
+          <span>
+            <b>Thought for users</b> – All content produced in our ebooks are directed to users, in which they can contact us by email available at <a class="text-tertiary-50-900-token underline" href="/faq">faq page</a>
+          </span>
+        </li>
+        <li>
+          <span>
+            <CheckCircleIcon size="22" />
+          </span>
+          <span>
+            <b>Download from google drive</b> – Google drive is a well-structured tool and not very error-prone, so gerastucter prefers to use it. The database of our ebooks is google drive for its versatility and popularity.
+          </span>
+        </li>
+        <li>
+          <span>
+            <CheckCircleIcon size="22" />
+          </span>
+          <span><b>Preview</b> – You can preview using an odf iframe on a specific page for this, i.e. downloading is optional.
+          </span>
+        </li>
+      </ul>
+      <div class="flex flex-wrap gap-4">
+        <a
+          href="/resources/ebooks"
+          class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md variant-filled-tertiary border border-transparent font-semibold text-secondary-900-50-token hover:text-success-50-900-token hover:font-bold focus:outline-none focus:ring-2 ring-offset-white focus:ring-tertiary-500 focus:ring-offset-2 transition-all text-sm px-4 w-full">
+          GO
+        </a>
+      </div>
+    </div>
+    <div class="space-y-4 md:col-span-6 p-4">
+      <h1 class="text-3xl md:text-3xl font-bold">
+        Our <span class="text-success-500 drop-shadow-lg">BLOG</span> has a wide range of interesting content
       </h1>
       <p class="max-w-xl opacity-60">
         Get to know our blog by clicking on the "go" button
@@ -61,7 +102,7 @@
     </div>
     <div class="space-y-4 mt-10 md:mt-0 md:col-span-6 p-4">
       <h1 class="text-3xl md:text-3xl font-bold">
-        Our <span class="text-success-50-900-token drop-shadow-lg">TUTORING</span> will tutor you to learn a new language from scratch
+        Our <span class="text-success-500 drop-shadow-lg">TUTORING</span> will tutor you to learn a new language from scratch
       </h1>
       <p class="max-w-xl opacity-60">
         Get to know our tutoring by clicking on the "go" button

@@ -3,7 +3,7 @@
     content="All the Spanish posts of the Gerasducter blog are contained on this page, come and discover them.">
   <meta name="keywords" content="LANGUAGE, LEARNING, BLOG, SPANISH">
   <meta name="author" content="Gerastucter">
-  <title>BLOG</title>
+  <title>SPANISH BLOG</title>
 </svelte:head>
 
 <main>

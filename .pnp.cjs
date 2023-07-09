@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@skeletonlabs/skeleton", "npm:1.6.2"],\
             ["@sveltejs/adapter-auto", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:2.1.0"],\
             ["@sveltejs/kit", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:1.20.0"],\
+            ["@sveltejs/svelte-scroller", "npm:2.0.7"],\
             ["@tailwindcss/forms", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.5.3"],\
             ["@tailwindcss/typography", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.5.9"],\
             ["autoprefixer", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:10.4.14"],\
@@ -47,6 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier-plugin-tailwindcss", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.3.0"],\
             ["svelte", "npm:3.59.1"],\
             ["svelte-feather-icons", "npm:4.0.1"],\
+            ["svelte-scrollprogress", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:1.0.6"],\
             ["tailwind-merge", "npm:1.13.1"],\
             ["tailwindcss", "npm:3.3.2"],\
             ["vite", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:4.3.9"]\
@@ -575,6 +577,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "@types/vite",\
             "svelte",\
             "vite"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@sveltejs/svelte-scroller", [\
+        ["npm:2.0.7", {\
+          "packageLocation": "./.yarn/cache/@sveltejs-svelte-scroller-npm-2.0.7-90f1721dcf-1d79a0c874.zip/node_modules/@sveltejs/svelte-scroller/",\
+          "packageDependencies": [\
+            ["@sveltejs/svelte-scroller", "npm:2.0.7"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2468,6 +2479,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@skeletonlabs/skeleton", "npm:1.6.2"],\
             ["@sveltejs/adapter-auto", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:2.1.0"],\
             ["@sveltejs/kit", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:1.20.0"],\
+            ["@sveltejs/svelte-scroller", "npm:2.0.7"],\
             ["@tailwindcss/forms", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.5.3"],\
             ["@tailwindcss/typography", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.5.9"],\
             ["autoprefixer", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:10.4.14"],\
@@ -2482,6 +2494,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier-plugin-tailwindcss", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:0.3.0"],\
             ["svelte", "npm:3.59.1"],\
             ["svelte-feather-icons", "npm:4.0.1"],\
+            ["svelte-scrollprogress", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:1.0.6"],\
             ["tailwind-merge", "npm:1.13.1"],\
             ["tailwindcss", "npm:3.3.2"],\
             ["vite", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:4.3.9"]\
@@ -3523,6 +3536,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/svelte-hmr-virtual-6ee0cd09c8/0/cache/svelte-hmr-npm-0.15.2-2554f11b4c-bf1179de47.zip/node_modules/svelte-hmr/",\
           "packageDependencies": [\
             ["svelte-hmr", "virtual:ef7167dd047f5cf64fe102b1e11734bb3ce597ea051036417d126bcead4e90c4b679ddcedd7af63072fec232e25befee84b39fa53a1ada115359f11daca0c314#npm:0.15.2"],\
+            ["@types/svelte", null],\
+            ["svelte", "npm:3.59.1"]\
+          ],\
+          "packagePeers": [\
+            "@types/svelte",\
+            "svelte"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["svelte-scrollprogress", [\
+        ["npm:1.0.6", {\
+          "packageLocation": "./.yarn/cache/svelte-scrollprogress-npm-1.0.6-425141860f-bfa0e54b1e.zip/node_modules/svelte-scrollprogress/",\
+          "packageDependencies": [\
+            ["svelte-scrollprogress", "npm:1.0.6"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:1.0.6", {\
+          "packageLocation": "./.yarn/__virtual__/svelte-scrollprogress-virtual-c2fe6ca002/0/cache/svelte-scrollprogress-npm-1.0.6-425141860f-bfa0e54b1e.zip/node_modules/svelte-scrollprogress/",\
+          "packageDependencies": [\
+            ["svelte-scrollprogress", "virtual:985715fef678ab27ad96ad1a19a58168c10b4a62ebf29d7103b604714c17da452ce00fc61c840286422d2f56046a955ec64d5369c8f41d8601dcbab0af2ea4e2#npm:1.0.6"],\
             ["@types/svelte", null],\
             ["svelte", "npm:3.59.1"]\
           ],\

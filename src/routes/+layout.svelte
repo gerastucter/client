@@ -3,6 +3,7 @@
   import '../theme.postcss'
   
   
+  
   //Theme system 
   // import { autoModeWatcher } from '@skeletonlabs/skeleton';
   
@@ -20,6 +21,7 @@
 	
 	
 </script>
+
 
 <svelte:head>
   <!--{@html `<script>${autoModeWatcher.toString()} autoModeWatcher();</script>`}-->
