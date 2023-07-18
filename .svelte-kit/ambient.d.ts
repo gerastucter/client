@@ -5,7 +5,7 @@
 /// <reference types="@sveltejs/kit" />
 
 /**
- * Environment variables [loaded by Vite](https://vitejs.dev/guide/env-and-mode.html#env-files) from `.env` files and `process.env`. Like [`$env/dynamic/private`](https://kit.svelte.dev/docs/modules#$env-dynamic-private), this module cannot be imported into client-side code. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env).
+ * Environment variables [loaded by Vite](https://vitejs.dev/guide/env-and-mode.html#env-files) from `.env` files and `process.env`. Like [`$env/dynamic/private`](https://kit.svelte.dev/docs/modules#$env-dynamic-private), this module cannot be imported into client-side code. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env) _and do_ start with [`config.kit.env.privatePrefix`](https://kit.svelte.dev/docs/configuration#env) (if configured).
  * 
  * _Unlike_ [`$env/dynamic/private`](https://kit.svelte.dev/docs/modules#$env-dynamic-private), the values exported from this module are statically injected into your bundle at build time, enabling optimisations like dead code elimination.
  * 
@@ -29,41 +29,87 @@ declare module '$env/static/private' {
 	export const DEX2OATBOOTCLASSPATH: string;
 	export const TERMUX_MAIN_PACKAGE_FORMAT: string;
 	export const ANDROID_RUNTIME_ROOT: string;
+	export const npm_config_version_commit_hooks: string;
 	export const npm_config_user_agent: string;
 	export const EXTERNAL_STORAGE: string;
+	export const npm_config_bin_links: string;
 	export const npm_node_execpath: string;
+	export const npm_package_devDependencies_vite: string;
+	export const npm_config_init_version: string;
 	export const SHLVL: string;
 	export const HOME: string;
 	export const OLDPWD: string;
-	export const npm_package_json: string;
+	export const npm_package_devDependencies_eslint_plugin_svelte: string;
+	export const npm_package_devDependencies_eslint_config_prettier: string;
 	export const TERMUX_APP_PID: string;
 	export const COREPACK_ROOT: string;
-	export const NODE_OPTIONS: string;
+	export const npm_config_init_license: string;
+	export const YARN_WRAP_OUTPUT: string;
+	export const npm_config_version_tag_prefix: string;
 	export const BOOTCLASSPATH: string;
 	export const COLORTERM: string;
+	export const npm_package_devDependencies_tailwindcss: string;
+	export const npm_package_devDependencies_daisyui: string;
+	export const npm_package_devDependencies__tailwindcss_forms: string;
 	export const TMPDIR: string;
+	export const npm_package_devDependencies_prettier: string;
+	export const npm_package_scripts_dev: string;
+	export const npm_package_type: string;
 	export const _: string;
+	export const npm_package_devDependencies_autoprefixer: string;
+	export const npm_package_private: string;
 	export const TERMUX_VERSION: string;
+	export const npm_package_scripts_lint: string;
+	export const npm_config_registry: string;
 	export const TERM: string;
 	export const ANDROID_DATA: string;
+	export const npm_package_dependencies_tailwind_merge: string;
+	export const npm_config_ignore_scripts: string;
 	export const HISTCONTROL: string;
+	export const npm_package_devDependencies_prettier_plugin_tailwindcss: string;
 	export const PATH: string;
+	export const NODE: string;
+	export const npm_package_dependencies__sveltejs_svelte_scroller: string;
 	export const npm_package_name: string;
 	export const TERMUX_APK_RELEASE: string;
 	export const ANDROID_ROOT: string;
 	export const LD_PRELOAD: string;
 	export const LANG: string;
+	export const npm_package_devDependencies_eslint: string;
+	export const npm_lifecycle_script: string;
+	export const npm_package_devDependencies_svelte_scrollprogress: string;
 	export const PREFIX: string;
-	export const PROJECT_CWD: string;
+	export const npm_package_devDependencies__tailwindcss_typography: string;
+	export const npm_package_devDependencies__sveltejs_kit: string;
+	export const npm_config_version_git_message: string;
 	export const SHELL: string;
 	export const ANDROID_TZDATA_ROOT: string;
-	export const npm_package_version: string;
 	export const npm_lifecycle_event: string;
+	export const npm_package_version: string;
+	export const npm_config_argv: string;
+	export const npm_package_dependencies_preline: string;
+	export const npm_package_devDependencies_svelte: string;
+	export const npm_package_scripts_build: string;
 	export const TERMUX_IS_DEBUGGABLE_BUILD: string;
+	export const npm_config_foreground_scripts: string;
+	export const npm_config_version_git_tag: string;
+	export const npm_config_version_git_sign: string;
+	export const npm_package_license: string;
+	export const npm_config_strict_ssl: string;
+	export const npm_package_scripts_format: string;
 	export const PWD: string;
-	export const BERRY_BIN_FOLDER: string;
 	export const npm_execpath: string;
+	export const npm_package_dependencies__popperjs_core: string;
+	export const npm_package_devDependencies__floating_ui_dom: string;
+	export const npm_package_devDependencies_postcss: string;
+	export const npm_package_devDependencies__sveltejs_adapter_auto: string;
+	export const npm_config_save_prefix: string;
+	export const npm_config_ignore_optional: string;
+	export const npm_package_dependencies_svelte_feather_icons: string;
+	export const npm_package_devDependencies_prettier_plugin_svelte: string;
+	export const npm_package_scripts_preview: string;
 	export const INIT_CWD: string;
+	export const npm_package_devDependencies__skeletonlabs_skeleton: string;
 	export const NODE_ENV: string;
 }
 
@@ -81,7 +127,7 @@ declare module '$env/static/public' {
 }
 
 /**
- * This module provides access to runtime environment variables, as defined by the platform you're running on. For example if you're using [`adapter-node`](https://github.com/sveltejs/kit/tree/master/packages/adapter-node) (or running [`vite preview`](https://kit.svelte.dev/docs/cli)), this is equivalent to `process.env`. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env).
+ * This module provides access to runtime environment variables, as defined by the platform you're running on. For example if you're using [`adapter-node`](https://github.com/sveltejs/kit/tree/master/packages/adapter-node) (or running [`vite preview`](https://kit.svelte.dev/docs/cli)), this is equivalent to `process.env`. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env) _and do_ start with [`config.kit.env.privatePrefix`](https://kit.svelte.dev/docs/configuration#env) (if configured).
  * 
  * This module cannot be imported into client-side code.
  * 
@@ -97,44 +143,90 @@ declare module '$env/dynamic/private' {
 		DEX2OATBOOTCLASSPATH: string;
 		TERMUX_MAIN_PACKAGE_FORMAT: string;
 		ANDROID_RUNTIME_ROOT: string;
+		npm_config_version_commit_hooks: string;
 		npm_config_user_agent: string;
 		EXTERNAL_STORAGE: string;
+		npm_config_bin_links: string;
 		npm_node_execpath: string;
+		npm_package_devDependencies_vite: string;
+		npm_config_init_version: string;
 		SHLVL: string;
 		HOME: string;
 		OLDPWD: string;
-		npm_package_json: string;
+		npm_package_devDependencies_eslint_plugin_svelte: string;
+		npm_package_devDependencies_eslint_config_prettier: string;
 		TERMUX_APP_PID: string;
 		COREPACK_ROOT: string;
-		NODE_OPTIONS: string;
+		npm_config_init_license: string;
+		YARN_WRAP_OUTPUT: string;
+		npm_config_version_tag_prefix: string;
 		BOOTCLASSPATH: string;
 		COLORTERM: string;
+		npm_package_devDependencies_tailwindcss: string;
+		npm_package_devDependencies_daisyui: string;
+		npm_package_devDependencies__tailwindcss_forms: string;
 		TMPDIR: string;
+		npm_package_devDependencies_prettier: string;
+		npm_package_scripts_dev: string;
+		npm_package_type: string;
 		_: string;
+		npm_package_devDependencies_autoprefixer: string;
+		npm_package_private: string;
 		TERMUX_VERSION: string;
+		npm_package_scripts_lint: string;
+		npm_config_registry: string;
 		TERM: string;
 		ANDROID_DATA: string;
+		npm_package_dependencies_tailwind_merge: string;
+		npm_config_ignore_scripts: string;
 		HISTCONTROL: string;
+		npm_package_devDependencies_prettier_plugin_tailwindcss: string;
 		PATH: string;
+		NODE: string;
+		npm_package_dependencies__sveltejs_svelte_scroller: string;
 		npm_package_name: string;
 		TERMUX_APK_RELEASE: string;
 		ANDROID_ROOT: string;
 		LD_PRELOAD: string;
 		LANG: string;
+		npm_package_devDependencies_eslint: string;
+		npm_lifecycle_script: string;
+		npm_package_devDependencies_svelte_scrollprogress: string;
 		PREFIX: string;
-		PROJECT_CWD: string;
+		npm_package_devDependencies__tailwindcss_typography: string;
+		npm_package_devDependencies__sveltejs_kit: string;
+		npm_config_version_git_message: string;
 		SHELL: string;
 		ANDROID_TZDATA_ROOT: string;
-		npm_package_version: string;
 		npm_lifecycle_event: string;
+		npm_package_version: string;
+		npm_config_argv: string;
+		npm_package_dependencies_preline: string;
+		npm_package_devDependencies_svelte: string;
+		npm_package_scripts_build: string;
 		TERMUX_IS_DEBUGGABLE_BUILD: string;
+		npm_config_foreground_scripts: string;
+		npm_config_version_git_tag: string;
+		npm_config_version_git_sign: string;
+		npm_package_license: string;
+		npm_config_strict_ssl: string;
+		npm_package_scripts_format: string;
 		PWD: string;
-		BERRY_BIN_FOLDER: string;
 		npm_execpath: string;
+		npm_package_dependencies__popperjs_core: string;
+		npm_package_devDependencies__floating_ui_dom: string;
+		npm_package_devDependencies_postcss: string;
+		npm_package_devDependencies__sveltejs_adapter_auto: string;
+		npm_config_save_prefix: string;
+		npm_config_ignore_optional: string;
+		npm_package_dependencies_svelte_feather_icons: string;
+		npm_package_devDependencies_prettier_plugin_svelte: string;
+		npm_package_scripts_preview: string;
 		INIT_CWD: string;
+		npm_package_devDependencies__skeletonlabs_skeleton: string;
 		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
-		[key: string]: string | undefined;
+		[key: `${string}`]: string | undefined;
 	}
 }
 
