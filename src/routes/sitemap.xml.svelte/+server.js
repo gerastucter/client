@@ -11,7 +11,8 @@ const ebooks = {
 const ebooksdemos = [
   {
     title: "Ebook-001",
-    slug: "top-10-steps-to-become-a-poliglot-by-yourself-and-without-spending-money-ebook-demo"
+    slug: "top-10-steps-to-become-a-poliglot-by-yourself-and-without-spending-money-ebook-demo",
+    updatedAt: "2023-07-22"
   }
   ]
 
@@ -72,7 +73,7 @@ const sitemap = (posts, pages) => `<?xml version="1.0" encoding="UTF-8" ?>
   </url>
   <url>
     <loc>${site}/${ebooks.slug}</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   ${spanishblogposts.map((post) => post.visible ? null : `
@@ -88,7 +89,7 @@ const sitemap = (posts, pages) => `<?xml version="1.0" encoding="UTF-8" ?>
 		  ${ebooksdemos.map((post) => post.visible ? null : `
   <url>
     <loc>${site}/${ebooks.slug}/${post.slug}</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <lastmod>${post.updatedAt}</lastmod>
     <priority>0.3</priority>
   </url>
