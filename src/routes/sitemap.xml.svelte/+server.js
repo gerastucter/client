@@ -3,6 +3,18 @@ const blog = {
     slug: "resources/blog", 
 }
 
+const ebooks = {
+    page: "ebooks",
+    slug: "resources/ebooks", 
+}
+
+const ebooksdemos = [
+  {
+    title: "Ebook-001",
+    slug: "top-10-steps-to-become-a-poliglot-by-yourself-and-without-spending-money-ebook-demo"
+  }
+  ]
+
 const spanishblogposts = [
   {
     title: "Spanish-001",
@@ -14,7 +26,7 @@ const spanishblogposts = [
 
 const pages = ["about", "resources", "faq"] //list of pages as a string ex. ["about", "blog", "contact"]
 
-const site = "https://www.en.gerastucter.site"
+const site = "https://en.gerastucter.site"
 
 // const tutoring = {
 //     page: "blog",
@@ -53,9 +65,29 @@ const sitemap = (posts, pages) => `<?xml version="1.0" encoding="UTF-8" ?>
     <priority>0.7</priority>
   </url>
   `).join('')}
+    <url>
+  <loc>${site}/${blog.slug}</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>${site}/${ebooks.slug}</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
   ${spanishblogposts.map((post) => post.visible ? null : `
   <url>
     <loc>${site}/${blog.slug}/spanish/${post.slug}</loc>
+    <changefreq>weekly</changefreq>
+    <lastmod>${post.updatedAt}</lastmod>
+    <priority>0.3</priority>
+  </url>
+  `
+		)
+		.join('')}
+		  ${ebooksdemos.map((post) => post.visible ? null : `
+  <url>
+    <loc>${site}/${ebooks.slug}/${post.slug}</loc>
     <changefreq>weekly</changefreq>
     <lastmod>${post.updatedAt}</lastmod>
     <priority>0.3</priority>
