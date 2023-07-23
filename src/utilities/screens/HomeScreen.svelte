@@ -7,7 +7,8 @@
     content="Discover free tools to help you in your language learning. Get to know our homepage.">
   <meta name="keywords" content="LANGUAGE, LEARNING, HOME">
   <meta name="author" content="Gerastucter">
-  <title>Gerastucter</title>
+  <title>Gerastucter for English speakers</title>
+  <link rel="caconical" href="https://www.en.gerastucter.site/" />
 </svelte:head>
 
 

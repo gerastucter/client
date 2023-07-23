@@ -4,6 +4,7 @@
   <meta name="keywords" content="FREQUENT, QUESTIONS, GERASTUCTER">
   <meta name="author" content="Gerastucter">
   <title>FAQ</title>
+  <link rel="caconical" href="https://www.en.gerastucter.site/faq" />
 </svelte:head>
 
 

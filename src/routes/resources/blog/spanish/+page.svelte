@@ -1,9 +1,10 @@
 <svelte:head>
   <meta name="description"
-    content="All the Spanish posts of the Gerasducter blog are contained on this page, come and discover them.">
+    content="All the Spanish posts of the Gerastucter blog are contained on this page, come and discover them">
   <meta name="keywords" content="LANGUAGE, LEARNING, BLOG, SPANISH">
   <meta name="author" content="Gerastucter">
   <title>SPANISH BLOG</title>
+    <link rel="canonical" href="https://en.gerastucter.site/resources/blog/spanish" />
 </svelte:head>
 
 <main>

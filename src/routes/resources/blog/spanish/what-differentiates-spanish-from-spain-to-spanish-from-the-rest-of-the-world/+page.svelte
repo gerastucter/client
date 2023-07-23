@@ -3,12 +3,12 @@
 </script>
 
 <svelte:head>
-  
   <meta name="description"
     content="Discover what makes the Spanish of Spain so different from the rest such as historical facts, culture, and even grammar.">
   <meta name="keywords" content="LANGUAGE, LEARNING, BLOG, SPANISH, CULTURE, HISTORY, GRAMMAR">
   <meta name="author" content="Gerastucter">
   <title>What differentiates Spanish from Spain to Spanish from the rest of the world?</title>
+  <link rel="canonical" href="https://en.gerastucter.site/resources/blog/spanish/what-differentiates-spanish-from-spain-to-spanish-from-the-rest-of-the-world" />
 </svelte:head>
 
 <div id="ads-marker">

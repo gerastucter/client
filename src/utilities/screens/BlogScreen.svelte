@@ -8,6 +8,7 @@
   <meta name="keywords" content="LANGUAGE, LEARNING, BLOG">
   <meta name="author" content="Gerastucter">
   <title>BLOG</title>
+  <link rel="caconical" href="https://www.en.gerastucter.site/resources/blog" />
 </svelte:head>
 
 <main class="h-full bg-primary-50-900-token">
