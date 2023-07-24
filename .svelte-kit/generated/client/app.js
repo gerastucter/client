@@ -14,7 +14,8 @@ export const nodes = [
 	() => import('./nodes/10'),
 	() => import('./nodes/11'),
 	() => import('./nodes/12'),
-	() => import('./nodes/13')
+	() => import('./nodes/13'),
+	() => import('./nodes/14')
 ];
 
 export const server_loads = [];
@@ -29,7 +30,8 @@ export const dictionary = {
 		"/resources/blog/spanish/what-differentiates-spanish-from-spain-to-spanish-from-the-rest-of-the-world": [10,[2,3]],
 		"/resources/ebooks": [11],
 		"/resources/ebooks/top-10-steps-to-become-a-poliglot-by-yourself-and-without-spending-money-ebook-demo": [12],
-		"/resources/tutoring": [13]
+		"/resources/tutoring": [13],
+		"/resources/tutoring/japanese-learning-map-with-only-free-tools": [14]
 	};
 
 export const hooks = {

@@ -1,7 +1,6 @@
-const blog = {
-    page: "blog",
-    slug: "resources/blog", 
-}
+//app/sitemap.xml.svelte
+
+const site = "https://www.en.gerastucter.site"
 
 const ebooks = {
     page: "ebooks",
@@ -16,23 +15,44 @@ const ebooksdemos = [
   }
   ]
 
+const blog = {
+    page: "blog",
+    slug: "resources/blog",
+    languages: [
+      {
+        value: 'spanish',
+        slug: 'resources/blog/spanish',
+        updatedAt: "2023-07-22"
+      }
+    ]
+}
+
 const spanishblogposts = [
   {
     title: "Spanish-001",
     slug: "what-differentiates-spanish-from-spain-to-spanish-from-the-rest-of-the-world", 
+    language: 'spanish',
     updatedAt: "2023-06-18"
   }
   ]
   
 
-const pages = ["about", "resources", "faq"] //list of pages as a string ex. ["about", "blog", "contact"]
+const pages = ["about", "resources", "faq"]
 
-const site = "https://en.gerastucter.site"
 
-// const tutoring = {
-//     page: "blog",
-//     slug: "resources/tutoring", 
-//   }
+const tutoring = {
+    page: "tutoring",
+    slug: "resources/tutoring", 
+}
+
+const tutoringposts = [
+  {
+    title: "Tutoring-001",
+    slug: "japanese-learning-map-with-only-free-tools", 
+    updatedAt: "2023-07-24"
+  }
+  ]
+  
   
 /** @type {import('./$types').RequestHandler} */
 export async function GET({
@@ -68,7 +88,12 @@ const sitemap = (posts, pages) => `<?xml version="1.0" encoding="UTF-8" ?>
   `).join('')}
     <url>
   <loc>${site}/${blog.slug}</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>dayly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>${site}/${tutoring.slug}</loc>
+    <changefreq>dayly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
@@ -76,9 +101,19 @@ const sitemap = (posts, pages) => `<?xml version="1.0" encoding="UTF-8" ?>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+  ${blog.languages.map((post) => post.visible ? null : `
+  <url>
+    <loc>${site}/${post.slug}</loc>
+    <changefreq>weekly</changefreq>
+    <lastmod>${post.updatedAt}</lastmod>
+    <priority>0.3</priority>
+  </url>
+  `
+		)
+		.join('')}
   ${spanishblogposts.map((post) => post.visible ? null : `
   <url>
-    <loc>${site}/${blog.slug}/spanish/${post.slug}</loc>
+    <loc>${site}/${blog.slug}/${post.language}/${post.slug}</loc>
     <changefreq>weekly</changefreq>
     <lastmod>${post.updatedAt}</lastmod>
     <priority>0.3</priority>
@@ -90,6 +125,16 @@ const sitemap = (posts, pages) => `<?xml version="1.0" encoding="UTF-8" ?>
   <url>
     <loc>${site}/${ebooks.slug}/${post.slug}</loc>
     <changefreq>monthly</changefreq>
+    <lastmod>${post.updatedAt}</lastmod>
+    <priority>0.3</priority>
+  </url>
+  `
+		)
+		.join('')}
+		${tutoringposts.map((post) => post.visible ? null : `
+  <url>
+    <loc>${site}/${tutoring.slug}/${post.slug}</loc>
+    <changefreq>weekly</changefreq>
     <lastmod>${post.updatedAt}</lastmod>
     <priority>0.3</priority>
   </url>
