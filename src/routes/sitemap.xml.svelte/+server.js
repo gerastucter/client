@@ -88,12 +88,12 @@ const sitemap = (posts, pages) => `<?xml version="1.0" encoding="UTF-8" ?>
   `).join('')}
     <url>
   <loc>${site}/${blog.slug}</loc>
-    <changefreq>dayly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>${site}/${tutoring.slug}</loc>
-    <changefreq>dayly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
@@ -124,7 +124,7 @@ const sitemap = (posts, pages) => `<?xml version="1.0" encoding="UTF-8" ?>
 		  ${ebooksdemos.map((post) => post.visible ? null : `
   <url>
     <loc>${site}/${ebooks.slug}/${post.slug}</loc>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <lastmod>${post.updatedAt}</lastmod>
     <priority>0.3</priority>
   </url>
