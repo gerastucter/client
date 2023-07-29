@@ -7,7 +7,7 @@
   <meta name="keywords" content="KNOW, GERASTUCTER, ABOUT">
   <meta name="author" content="Gerastucter">
   <title>ABOUT</title>
-  <link rel="caconical" href="https://www.en.gerastucter.site/about" />
+  <link rel="caconical" href="https://en.gerastucter.site/about" />
 </svelte:head>
 
 <main class="bg-primary-50-900-token p-6 md:p-9">

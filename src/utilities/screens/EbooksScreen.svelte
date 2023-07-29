@@ -3,7 +3,7 @@
   <meta name="keywords" content="LANGUAGE, LEARNING, EBOOKS, FREE">
   <meta name="author" content="Gerastucter">
   <title>EBOOKS FOR ENGLISH SPEAKERS</title>
-  <link rel="canonical" href="https://www.en.gerastucter.site/resources/ebooks" />
+  <link rel="canonical" href="https://en.gerastucter.site/resources/ebooks" />
 </svelte:head>
 
 <main>

@@ -4,7 +4,7 @@
   <meta name="keywords" content="LANGUAGE, LEARNING, RESOURCES">
   <meta name="author" content="Gerastucter">
   <title>RESOURCES</title>
-  <link rel="caconical" href="https://www.en.gerastucter.site/resources" />
+  <link rel="caconical" href="https://en.gerastucter.site/resources" />
 </svelte:head>
 
 <script>

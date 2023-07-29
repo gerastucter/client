@@ -4,7 +4,7 @@
   <meta name="keywords" content="LANGUAGE, LEARNING, BLOG, SPANISH">
   <meta name="author" content="Gerastucter">
   <title>SPANISH BLOG</title>
-    <link rel="canonical" href="https://www.en.gerastucter.site/resources/blog/spanish" />
+    <link rel="canonical" href="https://en.gerastucter.site/resources/blog/spanish" />
 </svelte:head>
 
 <main>

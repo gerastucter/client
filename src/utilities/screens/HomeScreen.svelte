@@ -8,7 +8,7 @@
   <meta name="keywords" content="LANGUAGE, LEARNING, HOME">
   <meta name="author" content="Gerastucter">
   <title>Gerastucter for English speakers</title>
-  <link rel="caconical" href="https://www.en.gerastucter.site/" />
+  <link rel="caconical" href="https://en.gerastucter.site/" />
 </svelte:head>
 
 

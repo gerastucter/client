@@ -3,7 +3,7 @@
   <meta name="keywords" content="LANGUAGE, LEARNING, EBOOK, FREE">
   <meta name="author" content="Gerastucter">
   <title>Top 10 steps to become a poliglot ,ebook demonstration</title>
-  <link rel="canonical" href="https://www.en.gerastucter.site/resources/ebooks/top-10-steps-to-become-a-poliglot-by-yourself-and-without-spending-money-ebook-demo" />
+  <link rel="canonical" href="https://en.gerastucter.site/resources/ebooks/top-10-steps-to-become-a-poliglot-by-yourself-and-without-spending-money-ebook-demo" />
 </svelte:head>
 
 <main class="p-2 flex flex-col justify-center items-center">

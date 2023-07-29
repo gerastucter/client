@@ -3,7 +3,7 @@
   <meta name="keywords" content="LANGUAGE, LEARNING, TUTORING, FREE">
   <meta name="author" content="Gerastucter">
   <title>TUTOR FOR ENGLISH SPEAKERS</title>
-  <link rel="canonical" href="https://www.en.gerastucter.site/resources/tutoring" />
+  <link rel="canonical" href="https://en.gerastucter.site/resources/tutoring" />
 </svelte:head>
 
 

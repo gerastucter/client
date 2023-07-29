@@ -8,7 +8,7 @@
   <meta name="keywords" content="LANGUAGE, LEARNING, BLOG, SPANISH, CULTURE, HISTORY, GRAMMAR">
   <meta name="author" content="Gerastucter">
   <title>What differentiates Spanish from Spain to Spanish from the rest of the world?</title>
-  <link rel="canonical" href="https://www.en.gerastucter.site/resources/blog/spanish/what-differentiates-spanish-from-spain-to-spanish-from-the-rest-of-the-world" />
+  <link rel="canonical" href="https://en.gerastucter.site/resources/blog/spanish/what-differentiates-spanish-from-spain-to-spanish-from-the-rest-of-the-world" />
 </svelte:head>
 
 <div id="ads-marker">

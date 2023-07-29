@@ -1,6 +1,6 @@
 //app/sitemap.xml.svelte
 
-const site = "https://www.en.gerastucter.site"
+const site = "https://en.gerastucter.site"
 
 const ebooks = {
     page: "ebooks",

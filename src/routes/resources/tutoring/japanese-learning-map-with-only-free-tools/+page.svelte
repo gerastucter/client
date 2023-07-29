@@ -4,7 +4,7 @@
   <meta name="keywords" content="LANGUAGE, LEARNING, TUTORING, JAPANESE, MAP">
   <meta name="author" content="Gerastucter">
   <title>Japanese learning map with only free tools</title>
-  <link rel="canonical" href="https://www.en.gerastucter.site/resources/tutoring/japanese-learning-map-with-only-free-tools" />
+  <link rel="canonical" href="https://en.gerastucter.site/resources/tutoring/japanese-learning-map-with-only-free-tools" />
 </svelte:head>
 
 <main>
