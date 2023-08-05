@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/resources/ebooks/top-10-steps-to-become-a-poliglot-by-yourself-and-without-spending-money-ebook-demo/+page.svelte";
+export { default as component } from "../../../../src/routes/resources/blog/spanish/what-differentiates-spanish-from-spain-to-spanish-from-the-rest-of-the-world/+page.svelte";

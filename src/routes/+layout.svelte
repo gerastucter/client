@@ -5,7 +5,7 @@
   
   
   //Theme system 
-  // import { autoModeWatcher } from '@skeletonlabs/skeleton';
+  import { autoModeWatcher } from '@skeletonlabs/skeleton';
   
   // Import components
   import SideBarComponent from '../utilities/components/SideBarComponent.svelte'
@@ -24,7 +24,7 @@
 
 
 <svelte:head>
-  <!--{@html `<script>${autoModeWatcher.toString()} autoModeWatcher();</script>`}-->
+  {@html `<script>${autoModeWatcher.toString()} autoModeWatcher();</script>`}
 </svelte:head>
 
 
@@ -36,7 +36,7 @@
     {/if}
   </svelte:fragment>
   <!-- Router Slot -->
-  <slot />
+  <slot class="w-full" />
   <!-- ---- / ---- -->
   <svelte:fragment slot="pageFooter">
     {#if $page.status != 404}

@@ -12,7 +12,7 @@
 </svelte:head>
 
 
-<main id="top" class="container mx-auto text-center p-4 md:text-center">
+<main id="top" class="container mx-auto text-center p-4 md:text-center w-full">
   <section class="relative flex flex-col items-center justify-center">
     <div class="relative z-[1] space-y-6 pt-32 pb-24">
       <div class="z-40 w-full flex flex-col items-center justify-center">
@@ -87,6 +87,7 @@ The word  <b translate="no">"GESTURE"</b>" for Gerastucter, refers to a way of e
   main {
     animation: changeColor 4s alternate infinite;
     transition: 3s ease-in-out;
+    width: 100%;
   }
   
   @keyframes changeColor {
