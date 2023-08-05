@@ -2,7 +2,7 @@
   <meta name="description" content="Our TUTORING will tutor you to learn a new language from scratch">
   <meta name="keywords" content="LANGUAGE, LEARNING, TUTORING, FREE">
   <meta name="author" content="Gerastucter">
-  <title>TUTOR FOR ENGLISH SPEAKERS</title>
+  <title>TUTORING</title>
   <link rel="canonical" href="https://en.gerastucter.site/resources/tutoring" />
 </svelte:head>
 
